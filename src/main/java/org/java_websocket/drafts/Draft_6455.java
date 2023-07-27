@@ -609,34 +609,50 @@ public class Draft_6455 extends Draft {
    * @throws IncompleteException    if the maxpacketsize is smaller than the realpackagesize
    * @throws LimitExceededException if the payload length is to big
    */
-  private TranslatedPayloadMetaData translateSingleFramePayloadLength(ByteBuffer buffer,
-      Opcode optcode, int oldPayloadlength, int maxpacketsize, int oldRealpacketsize)
-      throws InvalidFrameException, IncompleteException, LimitExceededException {
-    int payloadlength = oldPayloadlength;
-    int realpacketsize = oldRealpacketsize;
-    if (optcode == Opcode.PING || optcode == Opcode.PONG || optcode == Opcode.CLOSING) {
-      log.trace("Invalid frame: more than 125 octets");
-      throw new InvalidFrameException("more than 125 octets");
+  private TranslatedPayloadMetaData translateSingleFramePayloadLength(BufferDetails details, int payloadLength) throws InvalidFrameException, IncompleteException, LimitExceededException {
+
+    int newPayloadLength = payloadLength;
+    int newRealPacketSize = details.getRealPacketSize();
+  
+    if (payloadLength == 126) {
+      newPayloadLength = read16BitLength(details.getBuffer());
+      newRealPacketSize += 2; 
+    } else if (payloadLength == 127) {
+      newPayloadLength = read64BitLength(details.getBuffer());
+      newRealPacketSize += 8;
     }
-    if (payloadlength == 126) {
-      realpacketsize += 2; // additional length bytes
-      translateSingleFrameCheckPacketSize(maxpacketsize, realpacketsize);
-      byte[] sizebytes = new byte[3];
-      sizebytes[1] = buffer.get(/*1 + 1*/);
-      sizebytes[2] = buffer.get(/*1 + 2*/);
-      payloadlength = new BigInteger(sizebytes).intValue();
-    } else {
-      realpacketsize += 8; // additional length bytes
-      translateSingleFrameCheckPacketSize(maxpacketsize, realpacketsize);
-      byte[] bytes = new byte[8];
-      for (int i = 0; i < 8; i++) {
-        bytes[i] = buffer.get(/*1 + i*/);
-      }
-      long length = new BigInteger(bytes).longValue();
-      translateSingleFrameCheckLengthLimit(length);
-      payloadlength = (int) length;
+  
+    checkPacketSize(details, newRealPacketSize);
+    checkLengthLimit(newPayloadLength);
+  
+    return new TranslatedPayloadMetaData(newPayloadLength, newRealPacketSize);
+    
+  }
+  
+  private static class BufferDetails {
+
+    private final ByteBuffer buffer;
+    private final int maxPacketSize; 
+    private final int realPacketSize;
+  
+    public BufferDetails(ByteBuffer buffer, int maxPacketSize, int realPacketSize) {
+      this.buffer = buffer;
+      this.maxPacketSize = maxPacketSize;
+      this.realPacketSize = realPacketSize;
     }
-    return new TranslatedPayloadMetaData(payloadlength, realpacketsize);
+  
+    public ByteBuffer getBuffer() {
+      return buffer;
+    }
+  
+    public int getMaxPacketSize() {
+      return maxPacketSize;
+    }
+  
+    public int getRealPacketSize() {
+      return realPacketSize; 
+    }
+  
   }
 
   /**

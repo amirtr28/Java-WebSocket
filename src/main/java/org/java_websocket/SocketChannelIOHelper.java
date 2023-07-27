@@ -129,15 +129,12 @@ public class SocketChannelIOHelper {
        ws.isFlushAndClose() &&
        ws.getDraft() != null &&
        ws.getDraft().getRole() == Role.SERVER) {
-  
-        ws.getDraft().reset(); //reset the draft
-        
+        ws.getDraft().reset();
         try {
           ws.getWebSocket().close();
         } catch(Exception e) {
           ws.getWebSocket().closeConnection(1000, "Internally calling closeConnection()");
         }
     }
-  
   }
 }
