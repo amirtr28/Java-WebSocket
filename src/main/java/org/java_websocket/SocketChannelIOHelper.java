@@ -79,38 +79,65 @@ public class SocketChannelIOHelper {
    * @return returns Whether there is more data to write
    * @throws IOException May be thrown by {@link WrappedByteChannel#writeMore()}
    */
-  public static boolean batch(WebSocketImpl ws, ByteChannel sockchannel) throws IOException {
+  public static boolean batch(WebSocketImpl ws, ByteChannel sockChannel) throws IOException {
+
     if (ws == null) {
-      return false;
+      return false; 
     }
+  
     ByteBuffer buffer = ws.outQueue.peek();
-    WrappedByteChannel c = null;
-
+  
     if (buffer == null) {
-      if (sockchannel instanceof WrappedByteChannel) {
-        c = (WrappedByteChannel) sockchannel;
-        if (c.isNeedWrite()) {
-          c.writeMore();
-        }
+      return handleEmptyBuffer(sockChannel); 
+    }
+  
+    return writeBuffers(ws, sockChannel, buffer);
+  
+  }
+  
+  private static boolean handleEmptyBuffer(ByteChannel sockChannel) throws IOException {
+    if (sockChannel instanceof WrappedByteChannel) {
+      WrappedByteChannel wrappedChannel = (WrappedByteChannel) sockChannel;
+      if (wrappedChannel.isNeedWrite()) {
+        wrappedChannel.writeMore();
       }
-    } else {
-      do {
-        // FIXME writing as much as possible is unfair!!
-        /*int written = */
-        sockchannel.write(buffer);
-        if (buffer.remaining() > 0) {
-          return false;
-        } else {
-          ws.outQueue.poll(); // Buffer finished. Remove it.
-          buffer = ws.outQueue.peek();
-        }
-      } while (buffer != null);
     }
+  
+    return true;
+  }
+  
+  private static boolean writeBuffers(WebSocketImpl ws, ByteChannel sockChannel, ByteBuffer buffer) throws IOException {
+    do {
+      sockChannel.write(buffer);
+      
+      if (buffer.remaining() > 0) {
+        return false;
+      } else {
+        ws.outQueue.poll(); 
+        buffer = ws.outQueue.peek();
+      }
+    } while (buffer != null);
+  
+    checkFlushAndClose(ws);
+  
+    return true;
+  }
+  
+  private static void checkFlushAndClose(WebSocketImpl ws) throws IOException {
 
-    if (ws.outQueue.isEmpty() && ws.isFlushAndClose() && ws.getDraft() != null
-        && ws.getDraft().getRole() != null && ws.getDraft().getRole() == Role.SERVER) {
-      ws.closeConnection();
+    if(ws.outQueue.isEmpty() && 
+       ws.isFlushAndClose() &&
+       ws.getDraft() != null &&
+       ws.getDraft().getRole() == Role.SERVER) {
+  
+        ws.getDraft().reset(); //reset the draft
+        
+        try {
+          ws.getWebSocket().close();
+        } catch(Exception e) {
+          ws.getWebSocket().closeConnection(1000, "Internally calling closeConnection()");
+        }
     }
-    return c == null || !((WrappedByteChannel) sockchannel).isNeedWrite();
+  
   }
 }
