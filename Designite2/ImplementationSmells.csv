@@ -1,0 +1,1331 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+.,(default package),ChatClient,ChatClient,Magic Number,The method contains a magic number: 6,56
+.,(default package),ChatClient,ChatClient,Magic Number,The method contains a magic number: 300,56
+.,(default package),ChatClient,ChatClient,Magic Number,The method contains a magic number: 400,56
+.,(default package),ChatServer,main,Empty catch clause,The method has an empty catch block.,84
+.,(default package),ChatServer,main,Magic Number,The method contains a magic number: 8887,84
+.,(default package),ChatServer,main,Magic Number,The method contains a magic number: 1000,84
+.,(default package),ChatServer,onStart,Magic Number,The method contains a magic number: 100,113
+.,(default package),ChatServerAttachmentExample,onOpen,Long Statement,The length of the statement "System.out.println(conn.getRemoteSocketAddress().getAddress().getHostAddress() + " entered the room! ID: " + conn.<Integer>getAttachment());" is 140.,54
+.,(default package),ChatServerAttachmentExample,main,Empty catch clause,The method has an empty catch block.,80
+.,(default package),ChatServerAttachmentExample,main,Magic Number,The method contains a magic number: 8887,80
+.,(default package),ChatServerAttachmentExample,main,Magic Number,The method contains a magic number: 1000,80
+.,(default package),FragmentedFramesExample,main,Magic Number,The method contains a magic number: 2,45
+.,(default package),FragmentedFramesExample,main,Magic Number,The method contains a magic number: 2,45
+.,(default package),ProxyClientExample,main,Magic Number,The method contains a magic number: 80,33
+.,(default package),ReconnectClientExample,main,Magic Number,The method contains a magic number: 10,34
+.,(default package),ReconnectClientExample,main,Magic Number,The method contains a magic number: 10000,34
+.,(default package),ReconnectClientExample,main,Magic Number,The method contains a magic number: 100,34
+.,(default package),ReconnectClientExample,main,Magic Number,The method contains a magic number: 100,34
+.,(default package),SecWebSocketProtocolClientExample,main,Long Statement,The length of the statement "Draft_6455 draft_ocppOnly=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("ocpp2.0")));" is 140.,40
+.,(default package),SecWebSocketProtocolServerExample,main,Long Statement,The length of the statement "Draft_6455 draft_ocppOnly=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("ocpp2.0")));" is 140.,39
+.,(default package),SecWebSocketProtocolServerExample,main,Magic Number,The method contains a magic number: 8887,39
+.,(default package),ServerAdditionalHeaderExample,main,Empty catch clause,The method has an empty catch block.,59
+.,(default package),ServerAdditionalHeaderExample,main,Magic Number,The method contains a magic number: 8887,59
+.,(default package),ServerAdditionalHeaderExample,main,Magic Number,The method contains a magic number: 1000,59
+.,(default package),ServerRejectHandshakeExample,main,Empty catch clause,The method has an empty catch block.,75
+.,(default package),ServerRejectHandshakeExample,main,Magic Number,The method contains a magic number: 8887,75
+.,(default package),ServerRejectHandshakeExample,main,Magic Number,The method contains a magic number: 1000,75
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 5000,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 10000,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 5000,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 300,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 400,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 10,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 10,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 10,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 200,65
+.,(default package),ServerStressTest,ServerStressTest,Magic Number,The method contains a magic number: 1000,65
+.,(default package),ServerStressTest,send,Long Statement,The length of the statement "System.out.println(websockets.size() + "/" + notyetconnected+ " clients sent \""+ payload+ "\""+ (System.currentTimeMillis() - time1));" is 135.,223
+.,(default package),SSLServerCustomWebsocketFactoryExample,main,Long Statement,The length of the statement "CustomSSLWebSocketServerFactory factory=new CustomSSLWebSocketServerFactory(sslContext`protocols.toArray(new String[]{})`ciphers.toArray(new String[]{}));" is 154.,49
+.,(default package),SSLServerCustomWebsocketFactoryExample,main,Magic Number,The method contains a magic number: 8887,49
+.,(default package),SSLServerExample,main,Magic Number,The method contains a magic number: 8887,44
+.,(default package),SSLServerLetsEncryptExample,main,Magic Number,The method contains a magic number: 8887,52
+.,(default package),SSLServerLetsEncryptExample,main,Magic Number,The method contains a magic number: 30,52
+.,(default package),SSLServerLetsEncryptExample,getContext,Long Statement,The length of the statement "byte[] certBytes=parseDERFromPEM(getBytes(new File(pathname + File.separator + "cert.pem"))`"-----BEGIN CERTIFICATE-----"`"-----END CERTIFICATE-----");" is 151.,64
+.,(default package),SSLServerLetsEncryptExample,getContext,Long Statement,The length of the statement "byte[] keyBytes=parseDERFromPEM(getBytes(new File(pathname + File.separator + "privkey.pem"))`"-----BEGIN PRIVATE KEY-----"`"-----END PRIVATE KEY-----");" is 153.,64
+.,(default package),TwoWaySSLServerExample,main,Magic Number,The method contains a magic number: 8887,50
+.,org.java_websocket,AbstractWebSocket,restartConnectionLostTimer,Empty catch clause,The method has an empty catch block.,177
+.,org.java_websocket,AbstractWebSocket,restartConnectionLostTimer,Long Statement,The length of the statement "connectionLostCheckerService=Executors.newSingleThreadScheduledExecutor(new NamedThreadFactory("connectionLostChecker"));" is 121.,177
+.,org.java_websocket,AbstractWebSocket,restartConnectionLostTimer,Long Statement,The length of the statement "connectionLostCheckerFuture=connectionLostCheckerService.scheduleAtFixedRate(connectionLostChecker`connectionLostTimeout`connectionLostTimeout`TimeUnit.NANOSECONDS);" is 165.,177
+.,org.java_websocket,AbstractWebSocket,restartConnectionLostTimer,Magic Number,The method contains a magic number: 1.5,177
+.,org.java_websocket,AbstractWebSocket,run,Empty catch clause,The method has an empty catch block.,193
+.,org.java_websocket,AbstractWebSocket,run,Magic Number,The method contains a magic number: 1.5,193
+.,org.java_websocket,AbstractWebSocket,executeConnectionLostDetection,Long Statement,The length of the statement "webSocketImpl.closeConnection(CloseFrame.ABNORMAL_CLOSE`"The connection was closed because the other endpoint did not respond with a pong in time. For more information check: https://github.com/TooTallNate/Java-WebSocket/wiki/Lost-connection-detection");" is 254.,217
+.,org.java_websocket,SocketChannelIOHelper,batch,Complex Conditional,The conditional expression ws.outQueue.isEmpty() && ws.isFlushAndClose() && ws.getDraft() != null && ws.getDraft().getRole() != null && ws.getDraft().getRole() == Role.SERVER is complex.,74
+.,org.java_websocket,SocketChannelIOHelper,batch,Complex Method,Cyclomatic complexity of the method is 8,74
+.,org.java_websocket,SocketChannelIOHelper,batch,Long Statement,The length of the statement "if (ws.outQueue.isEmpty() && ws.isFlushAndClose() && ws.getDraft() != null && ws.getDraft().getRole() != null && ws.getDraft().getRole() == Role.SERVER) {" is 154.,74
+.,org.java_websocket,SSLSocketChannel,SSLSocketChannel,Complex Conditional,The conditional expression inputSocketChannel == null || inputEngine == null || executor == inputExecutor is complex.,131
+.,org.java_websocket,SSLSocketChannel,read,Complex Method,Cyclomatic complexity of the method is 10,156
+.,org.java_websocket,SSLSocketChannel,read,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@7270898e,156
+.,org.java_websocket,SSLSocketChannel,write,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@309c259f,207
+.,org.java_websocket,SSLSocketChannel,doHandshake,Complex Method,Cyclomatic complexity of the method is 22,238
+.,org.java_websocket,SSLSocketChannel,doHandshake,Empty catch clause,The method has an empty catch block.,238
+.,org.java_websocket,SSLSocketChannel,doHandshake,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3d3a8905,238
+.,org.java_websocket,SSLSocketChannel,doHandshake,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@3d6e108e,238
+.,org.java_websocket,SSLSocketChannel,doHandshake,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4ba4c254,238
+.,org.java_websocket,SSLSocketChannel,enlargeBuffer,Magic Number,The method contains a magic number: 2,419
+.,org.java_websocket,SSLSocketChannel,closeConnection,Empty catch clause,The method has an empty catch block.,460
+.,org.java_websocket,SSLSocketChannel,handleEndOfStream,Long Statement,The length of the statement "log.error("This engine was forced to close inbound` without having received the proper SSL/TLS close notification message from the peer` due to end of stream.");" is 161.,480
+.,org.java_websocket,SSLSocketChannel2,SSLSocketChannel2,Complex Conditional,The conditional expression channel == null || sslEngine == null || exec == null is complex.,108
+.,org.java_websocket,SSLSocketChannel2,SSLSocketChannel2,Magic Number,The method contains a magic number: 3,108
+.,org.java_websocket,SSLSocketChannel2,processHandshake,Complex Method,Cyclomatic complexity of the method is 12,147
+.,org.java_websocket,SSLSocketChannel2,unwrap,Empty catch clause,The method has an empty catch block.,208
+.,org.java_websocket,SSLSocketChannel2,unwrap,Long Statement,The length of the statement "if (readEngineResult.getStatus() == SSLEngineResult.Status.CLOSED && sslEngine.getHandshakeStatus() == HandshakeStatus.NOT_HANDSHAKING) {" is 137.,208
+.,org.java_websocket,SSLSocketChannel2,unwrap,Long Statement,The length of the statement "while (readEngineResult.getStatus() == SSLEngineResult.Status.OK && (rem != inData.remaining() || sslEngine.getHandshakeStatus() == HandshakeStatus.NEED_UNWRAP));" is 162.,208
+.,org.java_websocket,SSLSocketChannel2,read,Complex Method,Cyclomatic complexity of the method is 12,291
+.,org.java_websocket,SSLSocketChannel2,isNeedRead,Long Statement,The length of the statement "return saveCryptData != null || inData.hasRemaining() || (inCrypt.hasRemaining() && readEngineResult.getStatus() != Status.BUFFER_UNDERFLOW && readEngineResult.getStatus() != Status.CLOSED);" is 190.,439
+.,org.java_websocket,WebSocketImpl,WebSocketImpl,Complex Conditional,The conditional expression listener == null || (draft == null && role == Role.SERVER) is complex.,200
+.,org.java_websocket,WebSocketImpl,decode,Complex Conditional,The conditional expression decodeHandshake(socketBuffer) && (!isClosing() && !isClosed()) is complex.,220
+.,org.java_websocket,WebSocketImpl,decode,Long Statement,The length of the statement "log.trace("process({}): ({})"`socketBuffer.remaining()`(socketBuffer.remaining() > 1000 ? "too big to display" : new String(socketBuffer.array()`socketBuffer.position()`socketBuffer.remaining())));" is 197.,220
+.,org.java_websocket,WebSocketImpl,decode,Magic Number,The method contains a magic number: 1000,220
+.,org.java_websocket,WebSocketImpl,decodeHandshake,Complex Method,Cyclomatic complexity of the method is 16,249
+.,org.java_websocket,WebSocketImpl,decodeHandshake,Empty catch clause,The method has an empty catch block.,249
+.,org.java_websocket,WebSocketImpl,decodeHandshake,Long Method,The method has 146 lines of code.,249
+.,org.java_websocket,WebSocketImpl,decodeHandshake,Magic Number,The method contains a magic number: 16,249
+.,org.java_websocket,WebSocketImpl,closeConnectionDueToWrongHandshake,Magic Number,The method contains a magic number: 404,426
+.,org.java_websocket,WebSocketImpl,closeConnectionDueToInternalServerError,Magic Number,The method contains a magic number: 500,436
+.,org.java_websocket,WebSocketImpl,generateHttpResponseDueToError,Magic Number,The method contains a magic number: 404,446
+.,org.java_websocket,WebSocketImpl,generateHttpResponseDueToError,Magic Number,The method contains a magic number: 500,446
+.,org.java_websocket,WebSocketImpl,generateHttpResponseDueToError,Magic Number,The method contains a magic number: 48,446
+.,org.java_websocket,WebSocketImpl,generateHttpResponseDueToError,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1ac5a662,446
+.,org.java_websocket,WebSocketImpl,close,Complex Method,Cyclomatic complexity of the method is 9,468
+.,org.java_websocket,WebSocketImpl,closeConnection,Complex Method,Cyclomatic complexity of the method is 8,519
+.,org.java_websocket,WebSocketImpl,write,Magic Number,The method contains a magic number: 1000,741
+.,org.java_websocket.client,WebSocketClient,reset,Long Statement,The length of the statement "throw new IllegalStateException("You cannot initialize a reconnect out of the websocket thread. Use reconnect in another thread to ensure a successful cleanup.");" is 162.,331
+.,org.java_websocket.client,WebSocketClient,run,Long Statement,The length of the statement "InetSocketAddress addr=dnsResolver == null ? InetSocketAddress.createUnresolved(uri.getHost()`getPort()) : new InetSocketAddress(dnsResolver.resolve(uri)`this.getPort());" is 170.,463
+.,org.java_websocket.client,WebSocketClient,sendHandshake,Long Statement,The length of the statement "String host=uri.getHost() + ((port != WebSocketImpl.DEFAULT_PORT && port != WebSocketImpl.DEFAULT_WSS_PORT) ? ":" + port : "");" is 127.,590
+.,org.java_websocket.client,SchemaCheckTest,testSchemaCheck,Long Statement,The length of the statement "final String[] invalidCase={"http://localhost:80"`"http://localhost:81"`"http://localhost"`"https://localhost:443"`"https://localhost:444"`"https://localhost"`"any://localhost"`"any://localhost:82"};" is 199.,13
+.,org.java_websocket.client,SchemaCheckTest,testSchemaCheck,Long Statement,The length of the statement "final String[] validCase={"ws://localhost"`"ws://localhost:80"`"ws://localhost:81"`"wss://localhost"`"wss://localhost:443"`"wss://localhost:444"};" is 146.,13
+.,org.java_websocket.drafts,Draft,readLine,Magic Number,The method contains a magic number: 2,70
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Complex Method,Cyclomatic complexity of the method is 8,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Magic Number,The method contains a magic number: 128,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Magic Number,The method contains a magic number: 3,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Magic Number,The method contains a magic number: 3,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Magic Number,The method contains a magic number: 2,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttp,Magic Number,The method contains a magic number: 2,95
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpServer,Long Statement,The length of the statement "throw new InvalidHandshakeException(String.format("Invalid request method received: %s Status line: %s"`firstLineTokens[0]`line));" is 130.,134
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpServer,Long Statement,The length of the statement "throw new InvalidHandshakeException(String.format("Invalid status line received: %s Status line: %s"`firstLineTokens[2]`line));" is 127.,134
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpServer,Magic Number,The method contains a magic number: 2,134
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpServer,Magic Number,The method contains a magic number: 2,134
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpClient,Long Statement,The length of the statement "throw new InvalidHandshakeException(String.format("Invalid status code received: %s Status line: %s"`firstLineTokens[1]`line));" is 127.,157
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpClient,Long Statement,The length of the statement "throw new InvalidHandshakeException(String.format("Invalid status line received: %s Status line: %s"`firstLineTokens[0]`line));" is 127.,157
+.,org.java_websocket.drafts,Draft,translateHandshakeHttpClient,Magic Number,The method contains a magic number: 2,157
+.,org.java_websocket.drafts,Draft,basicAccept,Long Statement,The length of the statement "return handshakedata.getFieldValue("Upgrade").equalsIgnoreCase("websocket") && handshakedata.getFieldValue("Connection").toLowerCase(Locale.ENGLISH).contains("upgrade");" is 169.,188
+.,org.java_websocket.drafts,Draft,createHandshake,Magic Number,The method contains a magic number: 100,264
+.,org.java_websocket.drafts,Draft_6455,Draft_6455,Complex Conditional,The conditional expression inputExtensions == null || inputProtocols == null || inputMaxFrameSize < 1 is complex.,227
+.,org.java_websocket.drafts,Draft_6455,acceptHandshakeAsServer,Magic Number,The method contains a magic number: 13,261
+.,org.java_websocket.drafts,Draft_6455,postProcessHandshakeRequestAsClient,Complex Method,Cyclomatic complexity of the method is 9,394
+.,org.java_websocket.drafts,Draft_6455,postProcessHandshakeRequestAsClient,Long Statement,The length of the statement "if (knownExtension.getProvidedExtensionAsClient() != null && knownExtension.getProvidedExtensionAsClient().length() != 0) {" is 123.,394
+.,org.java_websocket.drafts,Draft_6455,postProcessHandshakeRequestAsClient,Magic Number,The method contains a magic number: 16,394
+.,org.java_websocket.drafts,Draft_6455,createBinaryFrame,Long Statement,The length of the statement "log.trace("afterEnconding({}): {}"`framedata.getPayloadData().remaining()`(framedata.getPayloadData().remaining() > 1000 ? "too big to display" : new String(framedata.getPayloadData().array())));" is 195.,467
+.,org.java_websocket.drafts,Draft_6455,createBinaryFrame,Magic Number,The method contains a magic number: 1000,467
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Complex Method,Cyclomatic complexity of the method is 9,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 4,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 128,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 2,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 3,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 2,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 126,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 8,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 127,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 4,478
+.,org.java_websocket.drafts,Draft_6455,createByteBufferFromFramedata,Magic Number,The method contains a magic number: 4,478
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Complex Conditional,The conditional expression frame.isRSV1() || frame.isRSV2() || frame.isRSV3() is complex.,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Complex Method,Cyclomatic complexity of the method is 9,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Long Statement,The length of the statement "TranslatedPayloadMetaData payloadData=translateSingleFramePayloadLength(buffer`optcode`payloadlength`maxpacketsize`realpacketsize);" is 131.,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Long Statement,The length of the statement "log.trace("afterDecoding({}): {}"`frame.getPayloadData().remaining()`(frame.getPayloadData().remaining() > 1000 ? "too big to display" : new String(frame.getPayloadData().array())));" is 182.,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 2,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 8,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 0x40,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 0x20,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 0x10,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 128,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 128,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 15,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 125,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 4,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 4,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 4,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFrame,Magic Number,The method contains a magic number: 1000,528
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Complex Conditional,The conditional expression optcode == Opcode.PING || optcode == Opcode.PONG || optcode == Opcode.CLOSING is complex.,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Long Parameter List,The method has 5 parameters. ,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 126,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 2,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 3,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 2,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 8,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 8,599
+.,org.java_websocket.drafts,Draft_6455,translateSingleFramePayloadLength,Magic Number,The method contains a magic number: 8,599
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Magic Number,The method contains a magic number: 0x40,678
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Magic Number,The method contains a magic number: 2,678
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Magic Number,The method contains a magic number: 0x20,678
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Magic Number,The method contains a magic number: 3,678
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Magic Number,The method contains a magic number: 0x10,678
+.,org.java_websocket.drafts,Draft_6455,getRSVByte,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@1d4760eb,678
+.,org.java_websocket.drafts,Draft_6455,getMaskByte,Magic Number,The method contains a magic number: 128,698
+.,org.java_websocket.drafts,Draft_6455,getSizeBytes,Magic Number,The method contains a magic number: 125,708
+.,org.java_websocket.drafts,Draft_6455,getSizeBytes,Magic Number,The method contains a magic number: 65535,708
+.,org.java_websocket.drafts,Draft_6455,getSizeBytes,Magic Number,The method contains a magic number: 2,708
+.,org.java_websocket.drafts,Draft_6455,getSizeBytes,Magic Number,The method contains a magic number: 8,708
+.,org.java_websocket.drafts,Draft_6455,toByteArray,Magic Number,The method contains a magic number: 8,844
+.,org.java_websocket.drafts,Draft_6455,toByteArray,Magic Number,The method contains a magic number: 8,844
+.,org.java_websocket.drafts,Draft_6455,toByteArray,Magic Number,The method contains a magic number: 8,844
+.,org.java_websocket.drafts,Draft_6455,fromOpcode,Magic Number,The method contains a magic number: 2,854
+.,org.java_websocket.drafts,Draft_6455,fromOpcode,Magic Number,The method contains a magic number: 8,854
+.,org.java_websocket.drafts,Draft_6455,fromOpcode,Magic Number,The method contains a magic number: 9,854
+.,org.java_websocket.drafts,Draft_6455,fromOpcode,Magic Number,The method contains a magic number: 10,854
+.,org.java_websocket.drafts,Draft_6455,toOpcode,Magic Number,The method contains a magic number: 2,871
+.,org.java_websocket.drafts,Draft_6455,toOpcode,Magic Number,The method contains a magic number: 8,871
+.,org.java_websocket.drafts,Draft_6455,toOpcode,Magic Number,The method contains a magic number: 9,871
+.,org.java_websocket.drafts,Draft_6455,toOpcode,Magic Number,The method contains a magic number: 10,871
+.,org.java_websocket.drafts,Draft_6455,toOpcode,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@71c8d32a,871
+.,org.java_websocket.drafts,Draft_6455,processFrame,Complex Method,Cyclomatic complexity of the method is 8,892
+.,org.java_websocket.drafts,Draft_6455,processFrameText,Long Statement,The length of the statement "webSocketImpl.getWebSocketListener().onWebsocketMessage(webSocketImpl`Charsetfunctions.stringUtf8(frame.getPayloadData()));" is 123.,976
+.,org.java_websocket.drafts,Draft_6455,processFrameIsFin,Long Statement,The length of the statement "webSocketImpl.getWebSocketListener().onWebsocketMessage(webSocketImpl`Charsetfunctions.stringUtf8(currentContinuousFrame.getPayloadData()));" is 140.,992
+.,org.java_websocket.drafts,Draft_6455,hashCode,Magic Number,The method contains a magic number: 31,1148
+.,org.java_websocket.drafts,Draft_6455,hashCode,Magic Number,The method contains a magic number: 31,1148
+.,org.java_websocket.drafts,Draft_6455,hashCode,Magic Number,The method contains a magic number: 32,1148
+.,org.java_websocket.drafts,Draft_6455Test,Draft_6455Test,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,61
+.,org.java_websocket.drafts,Draft_6455Test,testConstructor,Empty catch clause,The method has an empty catch block.,84
+.,org.java_websocket.drafts,Draft_6455Test,testConstructor,Empty catch clause,The method has an empty catch block.,84
+.,org.java_websocket.drafts,Draft_6455Test,testConstructor,Empty catch clause,The method has an empty catch block.,84
+.,org.java_websocket.drafts,Draft_6455Test,testConstructor,Empty catch clause,The method has an empty catch block.,84
+.,org.java_websocket.drafts,Draft_6455Test,testConstructor,Empty catch clause,The method has an empty catch block.,84
+.,org.java_websocket.drafts,Draft_6455Test,testGetKnownExtensions,Magic Number,The method contains a magic number: 2,131
+.,org.java_websocket.drafts,Draft_6455Test,testGetProtocol,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,141
+.,org.java_websocket.drafts,Draft_6455Test,testGetProtocol,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,141
+.,org.java_websocket.drafts,Draft_6455Test,testGetKnownProtocols,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,155
+.,org.java_websocket.drafts,Draft_6455Test,testGetKnownProtocols,Magic Number,The method contains a magic number: 2,155
+.,org.java_websocket.drafts,Draft_6455Test,testCopyInstance,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,172
+.,org.java_websocket.drafts,Draft_6455Test,testCopyInstance,Long Statement,The length of the statement "Draft_6455 draft_6455=new Draft_6455(Collections.<IExtension>singletonList(new TestExtension())`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 156.,172
+.,org.java_websocket.drafts,Draft_6455Test,testReset,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,186
+.,org.java_websocket.drafts,Draft_6455Test,testReset,Magic Number,The method contains a magic number: 100,186
+.,org.java_websocket.drafts,Draft_6455Test,testToString,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,207
+.,org.java_websocket.drafts,Draft_6455Test,testToString,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,207
+.,org.java_websocket.drafts,Draft_6455Test,testToString,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>singletonList(new TestExtension())`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 145.,207
+.,org.java_websocket.drafts,Draft_6455Test,testToString,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))`10);" is 125.,207
+.,org.java_websocket.drafts,Draft_6455Test,testToString,Magic Number,The method contains a magic number: 10,207
+.,org.java_websocket.drafts,Draft_6455Test,testEquals,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,238
+.,org.java_websocket.drafts,Draft_6455Test,testEquals,Long Statement,The length of the statement "Draft draft2=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 124.,238
+.,org.java_websocket.drafts,Draft_6455Test,testHashCode,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,280
+.,org.java_websocket.drafts,Draft_6455Test,testHashCode,Long Statement,The length of the statement "Draft draft2=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 124.,280
+.,org.java_websocket.drafts,Draft_6455Test,acceptHandshakeAsServer,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,324
+.,org.java_websocket.drafts,Draft_6455Test,acceptHandshakeAsServer,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,324
+.,org.java_websocket.drafts,Draft_6455Test,acceptHandshakeAsClient,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,360
+.,org.java_websocket.drafts,Draft_6455Test,postProcessHandshakeResponseAsServer,Empty catch clause,The method has an empty catch block.,428
+.,org.java_websocket.drafts,Draft_6455Test,postProcessHandshakeResponseAsServer,Long Identifier,The length of the field handshakedataProtocolExtension is 30.,428
+.,org.java_websocket.drafts,Draft_6455Test,postProcessHandshakeResponseAsServer,Long Statement,The length of the statement "draft_6455=new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat")));" is 122.,428
+.,org.java_websocket.exceptions,IncompleteExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,IncompleteExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,IncompleteHandshakeExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,IncompleteHandshakeExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidDataExceptionTest,testConstructor,Magic Number,The method contains a magic number: 42,37
+.,org.java_websocket.exceptions,InvalidEncodingExceptionTest,testConstructor,Empty catch clause,The method has an empty catch block.,39
+.,org.java_websocket.exceptions,InvalidEncodingExceptionTest,testConstructor,Long Statement,The length of the statement "assertEquals("The argument has to be the provided exception"`unsupportedEncodingException`invalidEncodingException.getEncodingException());" is 139.,39
+.,org.java_websocket.exceptions,InvalidFrameExceptionTest,testExtends,Long Statement,The length of the statement "assertEquals("InvalidFrameException must extend InvalidDataException"`true`invalidFrameException instanceof InvalidDataException);" is 130.,61
+.,org.java_websocket.exceptions,InvalidHandshakeExceptionTest,testConstructor,Long Statement,The length of the statement "assertEquals("The close code has to be PROTOCOL_ERROR"`CloseFrame.PROTOCOL_ERROR`invalidHandshakeException.getCloseCode());" is 123.,38
+.,org.java_websocket.exceptions,InvalidHandshakeExceptionTest,testConstructor,Long Statement,The length of the statement "assertEquals("The close code has to be PROTOCOL_ERROR"`CloseFrame.PROTOCOL_ERROR`invalidHandshakeException.getCloseCode());" is 123.,38
+.,org.java_websocket.exceptions,InvalidHandshakeExceptionTest,testConstructor,Long Statement,The length of the statement "assertEquals("The close code has to be PROTOCOL_ERROR"`CloseFrame.PROTOCOL_ERROR`invalidHandshakeException.getCloseCode());" is 123.,38
+.,org.java_websocket.exceptions,InvalidHandshakeExceptionTest,testConstructor,Long Statement,The length of the statement "assertEquals("The close code has to be PROTOCOL_ERROR"`CloseFrame.PROTOCOL_ERROR`invalidHandshakeException.getCloseCode());" is 123.,38
+.,org.java_websocket.exceptions,InvalidHandshakeExceptionTest,testExtends,Long Statement,The length of the statement "assertEquals("InvalidHandshakeException must extend InvalidDataException"`true`invalidHandshakeException instanceof InvalidDataException);" is 138.,62
+.,org.java_websocket.exceptions,LimitExceededExceptionTest,testExtends,Long Statement,The length of the statement "assertEquals("LimitExceededException must extend InvalidDataException"`true`limitExceededException instanceof InvalidDataException);" is 132.,51
+.,org.java_websocket.exceptions,WebsocketNotConnectedExceptionTest,testConstructor,Long Identifier,The length of the identifier websocketNotConnectedException is 30.,37
+.,org.java_websocket.extensions,CompressionExtension,isFrameValid,Complex Conditional,The conditional expression (inputFrame instanceof DataFrame) && (inputFrame.isRSV2() || inputFrame.isRSV3()) is complex.,41
+.,org.java_websocket.extensions,CompressionExtension,isFrameValid,Complex Conditional,The conditional expression (inputFrame instanceof ControlFrame) && (inputFrame.isRSV1() || inputFrame.isRSV2() || inputFrame.isRSV3()) is complex.,41
+.,org.java_websocket.extensions,CompressionExtension,isFrameValid,Long Statement,The length of the statement "throw new InvalidFrameException("bad rsv RSV1: " + inputFrame.isRSV1() + " RSV2: "+ inputFrame.isRSV2()+ " RSV3: "+ inputFrame.isRSV3());" is 137.,41
+.,org.java_websocket.extensions,CompressionExtension,isFrameValid,Long Statement,The length of the statement "throw new InvalidFrameException("bad rsv RSV1: " + inputFrame.isRSV1() + " RSV2: "+ inputFrame.isRSV2()+ " RSV3: "+ inputFrame.isRSV3());" is 137.,41
+.,org.java_websocket.extensions,DefaultExtension,isFrameValid,Complex Conditional,The conditional expression inputFrame.isRSV1() || inputFrame.isRSV2() || inputFrame.isRSV3() is complex.,61
+.,org.java_websocket.extensions,DefaultExtension,isFrameValid,Long Statement,The length of the statement "throw new InvalidFrameException("bad rsv RSV1: " + inputFrame.isRSV1() + " RSV2: "+ inputFrame.isRSV2()+ " RSV3: "+ inputFrame.isRSV3());" is 137.,61
+.,org.java_websocket.extensions,ExtensionRequestData,parseExtensionRequest,Complex Conditional,The conditional expression (tempValue.startsWith("\"") && tempValue.endsWith("\"")) || (tempValue.startsWith("'") && tempValue.endsWith("'")) && tempValue.length() > 2 is complex.,17
+.,org.java_websocket.extensions,ExtensionRequestData,parseExtensionRequest,Long Statement,The length of the statement "if ((tempValue.startsWith("\"") && tempValue.endsWith("\"")) || (tempValue.startsWith("'") && tempValue.endsWith("'")) && tempValue.length() > 2) {" is 147.,17
+.,org.java_websocket.extensions,ExtensionRequestData,parseExtensionRequest,Magic Number,The method contains a magic number: 2,17
+.,org.java_websocket.extensions,CompressionExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,12
+.,org.java_websocket.extensions,CompressionExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,12
+.,org.java_websocket.extensions,CompressionExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,12
+.,org.java_websocket.extensions,CompressionExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,12
+.,org.java_websocket.extensions,CompressionExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,12
+.,org.java_websocket.extensions,DefaultExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,78
+.,org.java_websocket.extensions,DefaultExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,78
+.,org.java_websocket.extensions,DefaultExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,78
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testDecodeFrame,Long Statement,The length of the statement "String str="This is a highly compressable text" + "This is a highly compressable text" + "This is a highly compressable text"+ "This is a highly compressable text"+ "This is a highly compressable text";" is 202.,21
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testDecodeFrameIfRSVIsNotSet,Long Statement,The length of the statement "String str="This is a highly compressable text" + "This is a highly compressable text" + "This is a highly compressable text"+ "This is a highly compressable text"+ "This is a highly compressable text";" is 202.,38
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testEncodeFrame,Long Statement,The length of the statement "String str="This is a highly compressable text" + "This is a highly compressable text" + "This is a highly compressable text"+ "This is a highly compressable text"+ "This is a highly compressable text";" is 202.,54
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testEncodeFrameBelowThreshold,Magic Number,The method contains a magic number: 11,69
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,107
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testIsFrameValid,Empty catch clause,The method has an empty catch block.,107
+.,org.java_websocket.extensions,PerMessageDeflateExtensionTest,testGetProvidedExtensionAsClient,Long Statement,The length of the statement "assertEquals("permessage-deflate; server_no_context_takeover; client_no_context_takeover"`deflateExtension.getProvidedExtensionAsClient());" is 139.,145
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,encodeFrame,Complex Method,Cyclomatic complexity of the method is 8,205
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,encodeFrame,Magic Number,The method contains a magic number: 1024,205
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,endsWithTail,Magic Number,The method contains a magic number: 4,256
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,getProvidedExtensionAsServer,Long Statement,The length of the statement "return EXTENSION_REGISTERED_NAME + "; " + SERVER_NO_CONTEXT_TAKEOVER+ (clientNoContextTakeover ? "; " + CLIENT_NO_CONTEXT_TAKEOVER : "");" is 137.,324
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,isFrameValid,Complex Conditional,The conditional expression (inputFrame instanceof ContinuousFrame) && (inputFrame.isRSV1() || inputFrame.isRSV2() || inputFrame.isRSV3()) is complex.,336
+.,org.java_websocket.extensions.permessage_deflate,PerMessageDeflateExtension,isFrameValid,Long Statement,The length of the statement "throw new InvalidFrameException("bad rsv RSV1: " + inputFrame.isRSV1() + " RSV2: "+ inputFrame.isRSV2()+ " RSV3: "+ inputFrame.isRSV3());" is 137.,336
+.,org.java_websocket.framing,CloseFrame,isValid,Complex Conditional,The conditional expression code == CloseFrame.ABNORMAL_CLOSE || code == CloseFrame.TLS_ERROR || code == CloseFrame.NOCODE || code > 4999 || code < 1000 || code == 1004 is complex.,225
+.,org.java_websocket.framing,CloseFrame,isValid,Long Statement,The length of the statement "if (code == CloseFrame.ABNORMAL_CLOSE || code == CloseFrame.TLS_ERROR || code == CloseFrame.NOCODE || code > 4999 || code < 1000 || code == 1004) {" is 147.,225
+.,org.java_websocket.framing,CloseFrame,isValid,Magic Number,The method contains a magic number: 3000,225
+.,org.java_websocket.framing,CloseFrame,isValid,Magic Number,The method contains a magic number: 4999,225
+.,org.java_websocket.framing,CloseFrame,isValid,Magic Number,The method contains a magic number: 1000,225
+.,org.java_websocket.framing,CloseFrame,isValid,Magic Number,The method contains a magic number: 1004,225
+.,org.java_websocket.framing,CloseFrame,setPayload,Magic Number,The method contains a magic number: 2,245
+.,org.java_websocket.framing,CloseFrame,setPayload,Magic Number,The method contains a magic number: 4,245
+.,org.java_websocket.framing,CloseFrame,setPayload,Magic Number,The method contains a magic number: 2,245
+.,org.java_websocket.framing,CloseFrame,validateUtf8,Magic Number,The method contains a magic number: 2,273
+.,org.java_websocket.framing,CloseFrame,updatePayload,Magic Number,The method contains a magic number: 4,291
+.,org.java_websocket.framing,CloseFrame,updatePayload,Magic Number,The method contains a magic number: 2,291
+.,org.java_websocket.framing,CloseFrame,updatePayload,Magic Number,The method contains a magic number: 2,291
+.,org.java_websocket.framing,CloseFrame,hashCode,Magic Number,The method contains a magic number: 31,334
+.,org.java_websocket.framing,CloseFrame,hashCode,Magic Number,The method contains a magic number: 31,334
+.,org.java_websocket.framing,FramedataImpl1,toString,Long Statement,The length of the statement "return "Framedata{ opcode:" + getOpcode() + "` fin:"+ isFin()+ "` rsv1:"+ isRSV1()+ "` rsv2:"+ isRSV2()+ "` rsv3:"+ isRSV3()+ "` payload length:[pos:"+ unmaskedpayload.position()+ "` len:"+ unmaskedpayload.remaining()+ "]` payload:"+ (unmaskedpayload.remaining() > 1000 ? "(too big to display)" : new String(unmaskedpayload.array()))+ '}';" is 339.,159
+.,org.java_websocket.framing,FramedataImpl1,toString,Magic Number,The method contains a magic number: 1000,159
+.,org.java_websocket.framing,FramedataImpl1,get,Complex Method,Cyclomatic complexity of the method is 8,222
+.,org.java_websocket.framing,FramedataImpl1,get,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@9d4f31e,222
+.,org.java_websocket.framing,FramedataImpl1,equals,Complex Method,Cyclomatic complexity of the method is 9,250
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,FramedataImpl1,hashCode,Magic Number,The method contains a magic number: 31,283
+.,org.java_websocket.framing,CloseFrameTest,testConstructor,Magic Number,The method contains a magic number: 2,40
+.,org.java_websocket.framing,CloseFrameTest,testToString,Long Statement,The length of the statement "assertEquals("Frame toString must include a close code"`"Framedata{ opcode:CLOSING` fin:true` rsv1:false` rsv2:false` rsv3:false` payload length:[pos:0` len:2]` payload: *}code: 1000"`frameString);" is 197.,63
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,74
+.,org.java_websocket.framing,CloseFrameTest,testIsValid,Long Method,The method has 184 lines of code.,74
+.,org.java_websocket.framing,FramedataImpl1Test,testGet,Empty catch clause,The method has an empty catch block.,53
+.,org.java_websocket.framing,FramedataImpl1Test,testSetters,Magic Number,The method contains a magic number: 100,75
+.,org.java_websocket.framing,FramedataImpl1Test,testSetters,Magic Number,The method contains a magic number: 100,75
+.,org.java_websocket.framing,PingFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,63
+.,org.java_websocket.framing,PingFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,63
+.,org.java_websocket.framing,PingFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,63
+.,org.java_websocket.framing,PingFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,63
+.,org.java_websocket.framing,PongFrameTest,testCopyConstructor,Magic Number,The method contains a magic number: 100,58
+.,org.java_websocket.framing,PongFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,72
+.,org.java_websocket.framing,PongFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,72
+.,org.java_websocket.framing,PongFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,72
+.,org.java_websocket.framing,PongFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,72
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Empty catch clause,The method has an empty catch block.,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Long Statement,The length of the statement "frame.setPayload(ByteBuffer.wrap(new byte[]{(byte)0xD0`(byte)0x9F`(byte)0xD1`(byte)0x80`(byte)0xD0`(byte)0xD0`(byte)0xB2`(byte)0xD0`(byte)0xB5`(byte)0xD1`(byte)0x82}));" is 168.,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD0,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0x9F,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD1,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0x80,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD0,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD0,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xB2,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD0,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xB5,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0xD1,64
+.,org.java_websocket.framing,TextFrameTest,testIsValid,Magic Number,The method contains a magic number: 0x82,64
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Complex Method,Cyclomatic complexity of the method is 36,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Empty catch clause,The method has an empty catch block.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Method,The method has 163 lines of code.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 124.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat` chat2"+ "\r\n\r\n"));" is 131.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat`chat2`chat3"+ "\r\n\r\n"));" is 136.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat\r\nSec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 163.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 124.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat` chat2"+ "\r\n\r\n"));" is 131.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat`chat2`chat3"+ "\r\n\r\n"));" is 136.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat\r\nSec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 163.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 131.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2` chat3"+ "\r\n\r\n"));" is 132.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2\r\nSec-WebSocket-Protocol: chat3"+ "\r\n\r\n"));" is 158.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2\r\nSec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 157.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2`chat"+ "\r\n\r\n"));" is 130.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat3"+ "\r\n\r\n"));" is 125.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: abc"+ "\r\n\r\n"));" is 123.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: abc"+ "\r\n\r\n"));" is 123.,62
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Complex Method,Cyclomatic complexity of the method is 36,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Empty catch clause,The method has an empty catch block.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Method,The method has 156 lines of code.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 124.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat` chat2"+ "\r\n\r\n"));" is 131.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat`chat2`chat3"+ "\r\n\r\n"));" is 136.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat\r\nSec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 163.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 124.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat` chat2"+ "\r\n\r\n"));" is 131.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat`chat2`chat3"+ "\r\n\r\n"));" is 136.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat\r\nSec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 163.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2`chat3"+ "\r\n\r\n"));" is 131.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2` chat3"+ "\r\n\r\n"));" is 132.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2\r\nSec-WebSocket-Protocol: chat3"+ "\r\n\r\n"));" is 158.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2\r\nSec-WebSocket-Protocol: chat"+ "\r\n\r\n"));" is 157.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat2`chat"+ "\r\n\r\n"));" is 130.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat3"+ "\r\n\r\n"));" is 125.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: abc"+ "\r\n\r\n"));" is 123.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: chat1`chat2`chat3"+ "\r\n\r\n"));" is 137.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes(additionalHandshake + getSecKey(seckey) + "Sec-WebSocket-Protocol: abc"+ "\r\n\r\n"));" is 123.,67
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejectionTestCase0,Long Statement,The length of the statement "testProtocolRejection(0`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol(""))));" is 132.,276
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejectionTestCase0,Magic Number,The method contains a magic number: 5000,276
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase1,Magic Number,The method contains a magic number: 5000,282
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase2,Magic Number,The method contains a magic number: 5000,287
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase2,Magic Number,The method contains a magic number: 2,287
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase3,Magic Number,The method contains a magic number: 5000,292
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase3,Magic Number,The method contains a magic number: 3,292
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase4,Magic Number,The method contains a magic number: 5000,297
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase4,Magic Number,The method contains a magic number: 4,297
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase5,Long Statement,The length of the statement "testProtocolRejection(5`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 136.,302
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase5,Magic Number,The method contains a magic number: 5000,302
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase5,Magic Number,The method contains a magic number: 5,302
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase6,Long Statement,The length of the statement "testProtocolRejection(6`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 136.,308
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase6,Magic Number,The method contains a magic number: 5000,308
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase6,Magic Number,The method contains a magic number: 6,308
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase7,Long Statement,The length of the statement "testProtocolRejection(7`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 136.,314
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase7,Magic Number,The method contains a magic number: 5000,314
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase7,Magic Number,The method contains a magic number: 7,314
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase8,Long Statement,The length of the statement "testProtocolRejection(8`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 136.,320
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase8,Magic Number,The method contains a magic number: 5000,320
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase8,Magic Number,The method contains a magic number: 8,320
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase9,Long Statement,The length of the statement "testProtocolRejection(9`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 136.,326
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase9,Magic Number,The method contains a magic number: 5000,326
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase9,Magic Number,The method contains a magic number: 9,326
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase10,Long Statement,The length of the statement "testProtocolRejection(10`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 137.,332
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase10,Magic Number,The method contains a magic number: 5000,332
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase10,Magic Number,The method contains a magic number: 10,332
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase11,Long Statement,The length of the statement "testProtocolRejection(11`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 137.,338
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase11,Magic Number,The method contains a magic number: 5000,338
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase11,Magic Number,The method contains a magic number: 11,338
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase12,Long Statement,The length of the statement "testProtocolRejection(12`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 137.,344
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase12,Magic Number,The method contains a magic number: 5000,344
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase12,Magic Number,The method contains a magic number: 12,344
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase13,Long Statement,The length of the statement "testProtocolRejection(13`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("chat"))));" is 137.,350
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase13,Magic Number,The method contains a magic number: 5000,350
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase13,Magic Number,The method contains a magic number: 13,350
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase14,Magic Number,The method contains a magic number: 5000,356
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase14,Magic Number,The method contains a magic number: 14,356
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase15,Magic Number,The method contains a magic number: 5000,364
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase15,Magic Number,The method contains a magic number: 15,364
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase16,Magic Number,The method contains a magic number: 5000,372
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase16,Magic Number,The method contains a magic number: 16,372
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase17,Magic Number,The method contains a magic number: 5000,380
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase17,Magic Number,The method contains a magic number: 17,380
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase18,Magic Number,The method contains a magic number: 5000,388
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase18,Magic Number,The method contains a magic number: 18,388
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase19,Magic Number,The method contains a magic number: 5000,393
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase19,Magic Number,The method contains a magic number: 19,393
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase20,Magic Number,The method contains a magic number: 5000,398
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase20,Magic Number,The method contains a magic number: 20,398
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase21,Magic Number,The method contains a magic number: 5000,403
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase21,Magic Number,The method contains a magic number: 21,403
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase22,Magic Number,The method contains a magic number: 5000,412
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase22,Magic Number,The method contains a magic number: 22,412
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase23,Magic Number,The method contains a magic number: 5000,421
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase23,Magic Number,The method contains a magic number: 23,421
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase24,Magic Number,The method contains a magic number: 5000,430
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase24,Magic Number,The method contains a magic number: 24,430
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase25,Magic Number,The method contains a magic number: 5000,435
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase25,Magic Number,The method contains a magic number: 25,435
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase26,Magic Number,The method contains a magic number: 5000,440
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase26,Magic Number,The method contains a magic number: 26,440
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase27,Long Statement,The length of the statement "testProtocolRejection(27`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("opc"))));" is 136.,445
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase27,Magic Number,The method contains a magic number: 5000,445
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase27,Magic Number,The method contains a magic number: 27,445
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase28,Long Statement,The length of the statement "testProtocolRejection(28`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("opc"))));" is 136.,451
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase28,Magic Number,The method contains a magic number: 5000,451
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase28,Magic Number,The method contains a magic number: 28,451
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase29,Long Statement,The length of the statement "testProtocolRejection(29`new Draft_6455(Collections.<IExtension>emptyList()`Collections.<IProtocol>singletonList(new Protocol("opc"))));" is 136.,457
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase29,Magic Number,The method contains a magic number: 5000,457
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testHandshakeRejectionTestCase29,Magic Number,The method contains a magic number: 29,457
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Complex Method,Cyclomatic complexity of the method is 76,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 2,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 3,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 4,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 5,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 6,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 7,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 8,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 9,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 13,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 14,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 17,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 20,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 21,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 22,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 23,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 24,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 25,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 26,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 2,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 3,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 4,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 17,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 20,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 24,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 25,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 26,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 5,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 9,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 10,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 11,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 12,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 13,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 15,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 16,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 18,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 19,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 27,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 28,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 29,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 6,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 7,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 8,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 14,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 22,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 21,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 23,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 2,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 3,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 4,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 5,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 6,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 7,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 8,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 9,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 13,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 14,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 17,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 20,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 21,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 22,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 23,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 24,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 25,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Magic Number,The method contains a magic number: 26,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@102c8bff,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,testProtocolRejection,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6ed31c37,463
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Complex Method,Cyclomatic complexity of the method is 21,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 2,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 3,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 4,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 5,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 6,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 7,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 8,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 9,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 13,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 14,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 17,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 20,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 21,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 22,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 23,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 24,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 25,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Magic Number,The method contains a magic number: 26,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onOpen,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@102c8bff,468
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Complex Method,Cyclomatic complexity of the method is 54,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 2,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 3,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 4,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 17,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 20,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 24,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 25,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 26,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 5,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 9,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 10,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 11,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 12,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 13,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 15,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 16,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 18,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 19,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 27,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 28,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 29,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 6,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 7,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 8,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 14,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 22,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 21,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 23,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 2,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 3,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 4,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 5,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 6,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 7,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 8,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 9,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 13,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 14,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 17,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 20,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 21,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 22,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 23,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 24,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 25,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 26,504
+.,org.java_websocket.protocols,ProtocolHandshakeRejectionTest,onClose,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@6ed31c37,504
+.,org.java_websocket.protocols,ProtocolTest,testConstructor,Empty catch clause,The method has an empty catch block.,38
+.,org.java_websocket.server,WebSocketServer,WebSocketServer,Complex Conditional,The conditional expression address == null || decodercount < 1 || connectionscontainer == null is complex.,184
+.,org.java_websocket.server,WebSocketServer,run,Complex Method,Cyclomatic complexity of the method is 11,363
+.,org.java_websocket.server,WebSocketServer,run,Empty catch clause,The method has an empty catch block.,363
+.,org.java_websocket.server,WebSocketServer,run,Magic Number,The method contains a magic number: 5,363
+.,org.java_websocket.server,WebSocketServer,run,Magic Number,The method contains a magic number: 5,363
+.,org.java_websocket.server,WebSocketServer,allocateBuffers,Magic Number,The method contains a magic number: 2,628
+.,org.java_websocket.server,WebSocketServer,handleIOException,Empty catch clause,The method has an empty catch block.,664
+.,org.java_websocket.server,WebSocketServer,doBroadcast,Empty catch clause,The method has an empty catch block.,995
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,28
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,28
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,28
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "CustomSSLWebSocketServerFactory webSocketServerFactory=new CustomSSLWebSocketServerFactory(SSLContext.getDefault()`null`null);" is 126.,78
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "webSocketImpl=webSocketServerFactory.createWebSocket(webSocketAdapter`Collections.<Draft>singletonList(new Draft_6455()));" is 122.,78
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testWrapChannel,Empty catch clause,The method has an empty catch block.,91
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testWrapChannel,Empty catch clause,The method has an empty catch block.,91
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testWrapChannel,Long Statement,The length of the statement "CustomSSLWebSocketServerFactory webSocketServerFactory=new CustomSSLWebSocketServerFactory(SSLContext.getDefault()`null`null);" is 126.,91
+.,org.java_websocket.server,CustomSSLWebSocketServerFactoryTest,testWrapChannel,Long Statement,The length of the statement "webSocketServerFactory=new CustomSSLWebSocketServerFactory(SSLContext.getDefault()`new String[]{"TLSv1.2"}`new String[]{"TLS_RSA_WITH_AES_128_CBC_SHA"`"TLS_RSA_WITH_AES_256_CBC_SHA"});" is 184.,91
+.,org.java_websocket.server,DefaultSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,26
+.,org.java_websocket.server,DefaultSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,26
+.,org.java_websocket.server,DefaultSSLWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,26
+.,org.java_websocket.server,DefaultSSLWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "webSocketImpl=webSocketServerFactory.createWebSocket(webSocketAdapter`Collections.<Draft>singletonList(new Draft_6455()));" is 122.,58
+.,org.java_websocket.server,DefaultSSLWebSocketServerFactoryTest,testWrapChannel,Empty catch clause,The method has an empty catch block.,71
+.,org.java_websocket.server,DefaultWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "webSocketImpl=webSocketServerFactory.createWebSocket(webSocketAdapter`Collections.<Draft>singletonList(new Draft_6455()));" is 122.,21
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,27
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testConstructor,Empty catch clause,The method has an empty catch block.,27
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "SSLParametersWebSocketServerFactory webSocketServerFactory=new SSLParametersWebSocketServerFactory(SSLContext.getDefault()`new SSLParameters());" is 144.,53
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testCreateWebSocket,Long Statement,The length of the statement "webSocketImpl=webSocketServerFactory.createWebSocket(webSocketAdapter`Collections.<Draft>singletonList(new Draft_6455()));" is 122.,53
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testWrapChannel,Empty catch clause,The method has an empty catch block.,66
+.,org.java_websocket.server,SSLParametersWebSocketServerFactoryTest,testWrapChannel,Long Statement,The length of the statement "SSLParametersWebSocketServerFactory webSocketServerFactory=new SSLParametersWebSocketServerFactory(SSLContext.getDefault()`new SSLParameters());" is 144.,66
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Empty catch clause,The method has an empty catch block.,50
+.,org.java_websocket.server,WebSocketServerTest,testConstructor,Magic Number,The method contains a magic number: 1337,50
+.,org.java_websocket.server,WebSocketServerTest,testGetDrafts,Magic Number,The method contains a magic number: 1337,121
+.,org.java_websocket.server,WebSocketServerTest,testMaxPendingConnections,Magic Number,The method contains a magic number: 1337,145
+.,org.java_websocket.server,WebSocketServerTest,testMaxPendingConnections,Magic Number,The method contains a magic number: 10,145
+.,org.java_websocket.server,WebSocketServerTest,testMaxPendingConnections,Magic Number,The method contains a magic number: 10,145
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Empty catch clause,The method has an empty catch block.,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Magic Number,The method contains a magic number: 1337,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Magic Number,The method contains a magic number: 0xD0,153
+.,org.java_websocket.server,WebSocketServerTest,testBroadcast,Magic Number,The method contains a magic number: 0xD0,153
+.,org.java_websocket.util,Base64,encode3to4,Long Parameter List,The method has 6 parameters. ,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 8,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 16,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 24,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 6,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 18,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 12,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 0x3f,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 2,496
+.,org.java_websocket.util,Base64,encode3to4,Magic Number,The method contains a magic number: 3,496
+.,org.java_websocket.util,Base64,encode3to4,Missing default,The following switch statement is missing a default case: !org.eclipse.jdt.core.dom.SwitchStatement@4ad9dfc7,496
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Complex Method,Cyclomatic complexity of the method is 14,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Empty catch clause,The method has an empty catch block.,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Empty catch clause,The method has an empty catch block.,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Empty catch clause,The method has an empty catch block.,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Cannot have offset of %d and length of %d with array of length %d"`off`len`source.length));" is 141.,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 3,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 3,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 2,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 3,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 3,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,encodeBytesToBytes,Magic Number,The method contains a magic number: 4,631
+.,org.java_websocket.util,Base64,decode4to3,Long Parameter List,The method has 5 parameters. ,779
+.,org.java_websocket.util,Base64,decode4to3,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Source array with length %d cannot have offset of %d and still process four bytes."`source.length`srcOffset));" is 160.,779
+.,org.java_websocket.util,Base64,decode4to3,Long Statement,The length of the statement "throw new IllegalArgumentException(String.format("Destination array with length %d cannot have offset of %d and still store three bytes."`destination.length`destOffset));" is 170.,779
+.,org.java_websocket.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((DECODABET[source[srcOffset]] & 0xFF) << 18) | ((DECODABET[source[srcOffset + 1]] & 0xFF) << 12) | ((DECODABET[source[srcOffset + 2]] & 0xFF) << 6);" is 161.,779
+.,org.java_websocket.util,Base64,decode4to3,Long Statement,The length of the statement "int outBuff=((DECODABET[source[srcOffset]] & 0xFF) << 18) | ((DECODABET[source[srcOffset + 1]] & 0xFF) << 12) | ((DECODABET[source[srcOffset + 2]] & 0xFF) << 6)| ((DECODABET[source[srcOffset + 3]] & 0xFF));" is 206.,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 18,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 12,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 6,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 0xFF,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 16,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 8,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 2,779
+.,org.java_websocket.util,Base64,decode4to3,Magic Number,The method contains a magic number: 3,779
+.,org.java_websocket.util,Charsetfunctions,isValidUTF8,Magic Number,The method contains a magic number: 256,119
+.,org.java_websocket.util,Charsetfunctions,isValidUTF8,Magic Number,The method contains a magic number: 4,119
+.,org.java_websocket.util,Charsetfunctions,isValidUTF8,Magic Number,The method contains a magic number: 0xff,119
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Long Statement,The length of the statement "assertGzipEncodedBytes("H4sIAAAAAAAA"`"MEALfv3IMBAAAA"`Base64.encodeBytes(new byte[]{49`121`64`113`-63`43`-24`62`4`48}`0`1`6));" is 127.,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Long Statement,The length of the statement "assertGzipEncodedBytes("H4sIAAAAAAAA"`"MoBABQHKKWAgAAAA=="`Base64.encodeBytes(new byte[]{49`121`64`113`-63`43`-24`62`4`48}`2`2`18));" is 132.,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Long Statement,The length of the statement "assertGzipEncodedBytes("6sg7--------"`"Bc0-0F699L-V----=="`Base64.encodeBytes(new byte[]{49`121`64`113`63`43`-24`62`4`48}`2`2`34));" is 131.,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 63,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 24,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 63,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 24,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 6,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 63,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 24,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 18,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 24,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 32,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 24,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 2,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes,Magic Number,The method contains a magic number: 34,39
+.,org.java_websocket.util,Base64Test,testEncodeBytes2,Magic Number,The method contains a magic number: 2,60
+.,org.java_websocket.util,Base64Test,testEncodeBytes2,Magic Number,The method contains a magic number: 2,60
+.,org.java_websocket.util,Base64Test,testEncodeBytes2,Magic Number,The method contains a magic number: 56,60
+.,org.java_websocket.util,Base64Test,testEncodeBytes3,Magic Number,The method contains a magic number: 128,66
+.,org.java_websocket.util,Base64Test,testEncodeBytes3,Magic Number,The method contains a magic number: 2064072977,66
+.,org.java_websocket.util,Base64Test,testEncodeBytes3,Magic Number,The method contains a magic number: 2064007440,66
+.,org.java_websocket.util,Base64Test,testEncodeBytes3,Magic Number,The method contains a magic number: 10,66
+.,org.java_websocket.util,Base64Test,testEncodeBytes5,Magic Number,The method contains a magic number: 32766,79
+.,org.java_websocket.util,Base64Test,testEncodeBytes5,Magic Number,The method contains a magic number: 8,79
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{95`68`111`78`55`45`61`61}`Base64.encodeBytesToBytes(new byte[]{-108`-19`24`32}`0`4`32));" is 124.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{95`68`111`78`55`67`111`61}`Base64.encodeBytesToBytes(new byte[]{-108`-19`24`32`-35}`0`5`40));" is 129.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{95`68`111`78`55`67`111`61}`Base64.encodeBytesToBytes(new byte[]{-108`-19`24`32`-35}`0`5`32));" is 129.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{87`50`77`61}`Base64.encodeBytesToBytes(new byte[]{115`42`123`99`10`-33`75`30`91`99}`8`2`48));" is 129.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{87`50`77`61}`Base64.encodeBytesToBytes(new byte[]{115`42`123`99`10`-33`75`30`91`99}`8`2`56));" is 129.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{76`53`66`61}`Base64.encodeBytesToBytes(new byte[]{113`42`123`99`10`-33`75`30`88`99}`8`2`36));" is 129.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Long Statement,The length of the statement "Assert.assertArrayEquals(new byte[]{87`71`77`61}`Base64.encodeBytesToBytes(new byte[]{113`42`123`99`10`-33`75`30`88`99}`8`2`4));" is 128.,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 108,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 19,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 4,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 32,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 108,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 19,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 35,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 5,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 40,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 108,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 19,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 35,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 5,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 32,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 33,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 8,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 2,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 48,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 33,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 8,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 2,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 56,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 33,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 8,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 2,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 36,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 33,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 8,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 2,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes1,Magic Number,The method contains a magic number: 4,85
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes2,Magic Number,The method contains a magic number: 8,103
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes2,Magic Number,The method contains a magic number: 6,103
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes2,Magic Number,The method contains a magic number: 26,103
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Long Statement,The length of the statement "byte[] src=new byte[]{113`42`123`99`10`-33`75`30`88`99`113`42`123`99`10`-33`75`31`88`99`113`42`123`99`10`-33`75`32`88`99`113`42`123`99`10`-33`75`33`88`99`113`42`123`99`10`-33`75`34`88`99`113`42`123`99`10`-33`75`35`88`99`55`60};" is 227.,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Long Statement,The length of the statement "byte[] excepted=new byte[]{99`83`112`55`89`119`114`102`83`120`53`89`89`51`69`113`101`50`77`75`51`48`115`102`87`71`78`120`75`110`116`106`67`116`57`76`73`70`104`106`99`83`112`55`89`119`114`102`83`121`70`89`89`51`69`113`101`50`77`75`51`48`115`105`87`71`78`120`75`110`116`106`67`116`57`76`10`73`49`104`106`78`122`119`61};" is 317.,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 33,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 62,109
+.,org.java_websocket.util,Base64Test,testEncodeBytesToBytes3,Magic Number,The method contains a magic number: 8,109
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 2,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 2,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 3,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 3,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 4,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 4,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 5,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 5,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 6,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 6,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 7,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 7,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 8,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferSmallToBig,Magic Number,The method contains a magic number: 8,73
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 2,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 2,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 3,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 3,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 4,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferBigToSmall,Magic Number,The method contains a magic number: 4,90
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferCheckNullDest,Empty catch clause,The method has an empty catch block.,103
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferCheckNullSource,Empty catch clause,The method has an empty catch block.,114
+.,org.java_websocket.util,ByteBufferUtilsTest,testTransferByteBufferCheckNullBoth,Empty catch clause,The method has an empty catch block.,125
+.,org.java_websocket.util,CharsetfunctionsTest,testIsValidUTF8off,Magic Number,The method contains a magic number: 2,47
+.,org.java_websocket.util,CharsetfunctionsTest,testIsValidUTF8off,Magic Number,The method contains a magic number: 128,47
+.,org.java_websocket.util,CharsetfunctionsTest,testIsValidUTF8,Magic Number,The method contains a magic number: 128,55
+.,org.java_websocket.util,CharsetfunctionsTest,testStringAscii1,Magic Number,The method contains a magic number: 2,62
+.,org.java_websocket.util,CharsetfunctionsTest,testStringAscii1,Magic Number,The method contains a magic number: 4,62
+.,org.java_websocket.util,ThreadCheck,after,Magic Number,The method contains a magic number: 10000000,46
+.,org.java_websocket.util,ThreadCheck,after,Magic Number,The method contains a magic number: 1000,46
+.,org.java_websocket.util,ThreadCheck,checkZombies,Magic Number,The method contains a magic number: 4096,56
+.,org.java_websocket.util,ThreadCheck,getThreadMap,Magic Number,The method contains a magic number: 2,80
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_1,Magic Number,The method contains a magic number: 10,54
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_2,Magic Number,The method contains a magic number: 10,63
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_3,Magic Number,The method contains a magic number: 10,72
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_4,Magic Number,The method contains a magic number: 10,81
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_5,Magic Number,The method contains a magic number: 10,90
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_6,Magic Number,The method contains a magic number: 30,99
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_7,Magic Number,The method contains a magic number: 20,108
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_1_8,Magic Number,The method contains a magic number: 30,117
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_1,Magic Number,The method contains a magic number: 10,126
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_2,Magic Number,The method contains a magic number: 10,135
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_3,Magic Number,The method contains a magic number: 10,144
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_4,Magic Number,The method contains a magic number: 20,153
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_5,Magic Number,The method contains a magic number: 10,162
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_6,Magic Number,The method contains a magic number: 70,171
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_7,Magic Number,The method contains a magic number: 70,180
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test1_2_8,Magic Number,The method contains a magic number: 60,189
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_1,Magic Number,The method contains a magic number: 10,198
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_2,Magic Number,The method contains a magic number: 10,207
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_3,Magic Number,The method contains a magic number: 10,216
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_4,Magic Number,The method contains a magic number: 10,225
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_5,Magic Number,The method contains a magic number: 10,234
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_6,Magic Number,The method contains a magic number: 30,243
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_7,Magic Number,The method contains a magic number: 10,252
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_8,Magic Number,The method contains a magic number: 10,261
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_9,Magic Number,The method contains a magic number: 10,270
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_10,Magic Number,The method contains a magic number: 60,279
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test2_11,Magic Number,The method contains a magic number: 50,288
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_1,Magic Number,The method contains a magic number: 10,297
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_2,Magic Number,The method contains a magic number: 10,306
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_3,Magic Number,The method contains a magic number: 10,315
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_4,Magic Number,The method contains a magic number: 20,324
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_5,Magic Number,The method contains a magic number: 10,333
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_6,Magic Number,The method contains a magic number: 10,342
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test3_7,Magic Number,The method contains a magic number: 10,351
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_1_1,Magic Number,The method contains a magic number: 10,360
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_1_2,Magic Number,The method contains a magic number: 10,369
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_1_3,Magic Number,The method contains a magic number: 10,378
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_1_4,Magic Number,The method contains a magic number: 10,387
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_1_5,Magic Number,The method contains a magic number: 10,396
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_2_1,Magic Number,The method contains a magic number: 10,405
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_2_2,Magic Number,The method contains a magic number: 10,414
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_2_3,Magic Number,The method contains a magic number: 10,423
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_2_4,Magic Number,The method contains a magic number: 10,432
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test4_2_5,Magic Number,The method contains a magic number: 15,441
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_1,Magic Number,The method contains a magic number: 10,450
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_2,Magic Number,The method contains a magic number: 10,459
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_3,Magic Number,The method contains a magic number: 10,468
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_4,Magic Number,The method contains a magic number: 10,477
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_5,Magic Number,The method contains a magic number: 20,486
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_6,Magic Number,The method contains a magic number: 60,495
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_7,Magic Number,The method contains a magic number: 60,504
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_8,Magic Number,The method contains a magic number: 20,513
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_9,Magic Number,The method contains a magic number: 10,522
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_10,Magic Number,The method contains a magic number: 10,531
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_11,Magic Number,The method contains a magic number: 20,540
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_12,Magic Number,The method contains a magic number: 10,549
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_13,Magic Number,The method contains a magic number: 10,558
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_14,Magic Number,The method contains a magic number: 10,567
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_15,Magic Number,The method contains a magic number: 10,576
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_16,Magic Number,The method contains a magic number: 10,585
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_17,Magic Number,The method contains a magic number: 10,594
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_18,Magic Number,The method contains a magic number: 10,603
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_19,Magic Number,The method contains a magic number: 1100,612
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test5_20,Magic Number,The method contains a magic number: 1100,621
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_1_1,Magic Number,The method contains a magic number: 10,630
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_1_2,Magic Number,The method contains a magic number: 10,639
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_1_3,Magic Number,The method contains a magic number: 10,648
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_2_1,Magic Number,The method contains a magic number: 10,657
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_2_2,Magic Number,The method contains a magic number: 10,666
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_2_3,Magic Number,The method contains a magic number: 10,675
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_2_4,Magic Number,The method contains a magic number: 10,684
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_3_1,Magic Number,The method contains a magic number: 10,693
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_3_2,Magic Number,The method contains a magic number: 10,702
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_4_1,Magic Number,The method contains a magic number: 2100,711
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_4_2,Magic Number,The method contains a magic number: 2100,720
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_4_3,Magic Number,The method contains a magic number: 2100,729
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_4_4,Magic Number,The method contains a magic number: 2100,738
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_5_1,Magic Number,The method contains a magic number: 10,747
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_5_2,Magic Number,The method contains a magic number: 10,756
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_5_3,Magic Number,The method contains a magic number: 10,765
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_5_4,Magic Number,The method contains a magic number: 10,774
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_5_5,Magic Number,The method contains a magic number: 10,783
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_1,Magic Number,The method contains a magic number: 10,792
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_2,Magic Number,The method contains a magic number: 10,801
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_3,Magic Number,The method contains a magic number: 10,810
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_4,Magic Number,The method contains a magic number: 10,819
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_5,Magic Number,The method contains a magic number: 10,828
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_6,Magic Number,The method contains a magic number: 10,837
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_7,Magic Number,The method contains a magic number: 10,846
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_8,Magic Number,The method contains a magic number: 10,855
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_9,Magic Number,The method contains a magic number: 10,864
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_10,Magic Number,The method contains a magic number: 10,873
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_6_11,Magic Number,The method contains a magic number: 10,882
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_7_1,Magic Number,The method contains a magic number: 10,891
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_7_2,Magic Number,The method contains a magic number: 10,900
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_7_3,Magic Number,The method contains a magic number: 10,909
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_7_4,Magic Number,The method contains a magic number: 10,918
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_8_1,Magic Number,The method contains a magic number: 10,927
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_8_2,Magic Number,The method contains a magic number: 10,936
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_9_1,Magic Number,The method contains a magic number: 10,945
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_9_2,Magic Number,The method contains a magic number: 10,954
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_9_3,Magic Number,The method contains a magic number: 10,963
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_9_4,Magic Number,The method contains a magic number: 10,972
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_10_1,Magic Number,The method contains a magic number: 10,981
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_10_2,Magic Number,The method contains a magic number: 10,990
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_10_3,Magic Number,The method contains a magic number: 10,999
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_11_1,Magic Number,The method contains a magic number: 10,1008
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_11_2,Magic Number,The method contains a magic number: 10,1017
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_11_3,Magic Number,The method contains a magic number: 10,1026
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_11_4,Magic Number,The method contains a magic number: 10,1035
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_11_5,Magic Number,The method contains a magic number: 10,1044
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_1,Magic Number,The method contains a magic number: 10,1053
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_2,Magic Number,The method contains a magic number: 10,1062
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_3,Magic Number,The method contains a magic number: 10,1071
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_4,Magic Number,The method contains a magic number: 10,1080
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_5,Magic Number,The method contains a magic number: 10,1089
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_6,Magic Number,The method contains a magic number: 10,1098
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_7,Magic Number,The method contains a magic number: 10,1107
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_12_8,Magic Number,The method contains a magic number: 10,1116
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_13_1,Magic Number,The method contains a magic number: 10,1125
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_13_2,Magic Number,The method contains a magic number: 10,1134
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_13_3,Magic Number,The method contains a magic number: 10,1143
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_13_4,Magic Number,The method contains a magic number: 10,1152
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_13_5,Magic Number,The method contains a magic number: 10,1161
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_1,Magic Number,The method contains a magic number: 10,1170
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_2,Magic Number,The method contains a magic number: 10,1179
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_3,Magic Number,The method contains a magic number: 10,1188
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_4,Magic Number,The method contains a magic number: 10,1197
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_5,Magic Number,The method contains a magic number: 10,1206
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_6,Magic Number,The method contains a magic number: 10,1215
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_7,Magic Number,The method contains a magic number: 10,1224
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_8,Magic Number,The method contains a magic number: 10,1233
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_9,Magic Number,The method contains a magic number: 10,1242
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_14_10,Magic Number,The method contains a magic number: 10,1251
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_15_1,Magic Number,The method contains a magic number: 10,1260
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_16_1,Magic Number,The method contains a magic number: 10,1269
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_16_2,Magic Number,The method contains a magic number: 10,1278
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_16_3,Magic Number,The method contains a magic number: 10,1287
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_17_1,Magic Number,The method contains a magic number: 10,1296
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_17_2,Magic Number,The method contains a magic number: 10,1305
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_17_3,Magic Number,The method contains a magic number: 10,1314
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_17_4,Magic Number,The method contains a magic number: 10,1323
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_17_5,Magic Number,The method contains a magic number: 10,1332
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_18_1,Magic Number,The method contains a magic number: 10,1341
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_18_2,Magic Number,The method contains a magic number: 10,1350
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_18_3,Magic Number,The method contains a magic number: 10,1359
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_18_4,Magic Number,The method contains a magic number: 10,1368
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_18_5,Magic Number,The method contains a magic number: 10,1377
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_19_1,Magic Number,The method contains a magic number: 10,1386
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_19_2,Magic Number,The method contains a magic number: 10,1395
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_19_3,Magic Number,The method contains a magic number: 10,1404
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_19_4,Magic Number,The method contains a magic number: 10,1413
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_19_5,Magic Number,The method contains a magic number: 10,1422
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_1,Magic Number,The method contains a magic number: 10,1431
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_2,Magic Number,The method contains a magic number: 10,1440
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_3,Magic Number,The method contains a magic number: 10,1449
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_4,Magic Number,The method contains a magic number: 10,1458
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_5,Magic Number,The method contains a magic number: 10,1467
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_6,Magic Number,The method contains a magic number: 10,1476
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_20_7,Magic Number,The method contains a magic number: 10,1485
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_1,Magic Number,The method contains a magic number: 10,1494
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_2,Magic Number,The method contains a magic number: 10,1503
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_3,Magic Number,The method contains a magic number: 10,1512
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_4,Magic Number,The method contains a magic number: 10,1521
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_5,Magic Number,The method contains a magic number: 10,1530
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_6,Magic Number,The method contains a magic number: 10,1539
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_7,Magic Number,The method contains a magic number: 10,1548
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_21_8,Magic Number,The method contains a magic number: 10,1557
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_1,Magic Number,The method contains a magic number: 10,1566
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_2,Magic Number,The method contains a magic number: 10,1575
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_3,Magic Number,The method contains a magic number: 10,1584
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_4,Magic Number,The method contains a magic number: 10,1593
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_5,Magic Number,The method contains a magic number: 10,1602
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_6,Magic Number,The method contains a magic number: 10,1611
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_7,Magic Number,The method contains a magic number: 10,1620
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_8,Magic Number,The method contains a magic number: 10,1629
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_9,Magic Number,The method contains a magic number: 10,1638
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_10,Magic Number,The method contains a magic number: 10,1647
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_11,Magic Number,The method contains a magic number: 10,1656
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_12,Magic Number,The method contains a magic number: 10,1665
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_13,Magic Number,The method contains a magic number: 10,1674
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_14,Magic Number,The method contains a magic number: 10,1683
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_15,Magic Number,The method contains a magic number: 10,1692
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_16,Magic Number,The method contains a magic number: 10,1701
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_17,Magic Number,The method contains a magic number: 10,1710
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_18,Magic Number,The method contains a magic number: 10,1719
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_19,Magic Number,The method contains a magic number: 10,1728
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_20,Magic Number,The method contains a magic number: 10,1737
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_21,Magic Number,The method contains a magic number: 10,1746
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_22,Magic Number,The method contains a magic number: 10,1755
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_23,Magic Number,The method contains a magic number: 10,1764
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_24,Magic Number,The method contains a magic number: 10,1773
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_25,Magic Number,The method contains a magic number: 10,1782
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_26,Magic Number,The method contains a magic number: 10,1791
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_27,Magic Number,The method contains a magic number: 10,1800
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_28,Magic Number,The method contains a magic number: 10,1809
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_29,Magic Number,The method contains a magic number: 10,1818
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_30,Magic Number,The method contains a magic number: 10,1827
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_31,Magic Number,The method contains a magic number: 10,1836
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_32,Magic Number,The method contains a magic number: 10,1845
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_33,Magic Number,The method contains a magic number: 10,1854
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_22_34,Magic Number,The method contains a magic number: 10,1863
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_1,Magic Number,The method contains a magic number: 10,1872
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_2,Magic Number,The method contains a magic number: 10,1881
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_3,Magic Number,The method contains a magic number: 10,1890
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_4,Magic Number,The method contains a magic number: 10,1899
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_5,Magic Number,The method contains a magic number: 10,1908
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_6,Magic Number,The method contains a magic number: 10,1917
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test6_23_7,Magic Number,The method contains a magic number: 10,1926
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_1,Magic Number,The method contains a magic number: 10,1935
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_2,Magic Number,The method contains a magic number: 10,1944
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_3,Magic Number,The method contains a magic number: 10,1953
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_4,Magic Number,The method contains a magic number: 10,1962
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_5,Magic Number,The method contains a magic number: 10,1971
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_1_6,Magic Number,The method contains a magic number: 50,1980
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_1,Magic Number,The method contains a magic number: 10,1989
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_2,Magic Number,The method contains a magic number: 10,1998
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_3,Magic Number,The method contains a magic number: 10,2007
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_4,Magic Number,The method contains a magic number: 10,2016
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_5,Magic Number,The method contains a magic number: 10,2025
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_3_6,Magic Number,The method contains a magic number: 10,2034
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_5_1,Magic Number,The method contains a magic number: 10,2043
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_1,Magic Number,The method contains a magic number: 10,2052
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_2,Magic Number,The method contains a magic number: 10,2061
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_3,Magic Number,The method contains a magic number: 10,2070
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_4,Magic Number,The method contains a magic number: 10,2079
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_5,Magic Number,The method contains a magic number: 10,2088
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_6,Magic Number,The method contains a magic number: 10,2097
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_7,Magic Number,The method contains a magic number: 10,2106
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_8,Magic Number,The method contains a magic number: 10,2115
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_9,Magic Number,The method contains a magic number: 10,2124
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_10,Magic Number,The method contains a magic number: 10,2133
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_11,Magic Number,The method contains a magic number: 10,2142
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_12,Magic Number,The method contains a magic number: 10,2151
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_7_13,Magic Number,The method contains a magic number: 10,2160
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_1,Magic Number,The method contains a magic number: 10,2169
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_2,Magic Number,The method contains a magic number: 10,2178
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_3,Magic Number,The method contains a magic number: 10,2187
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_4,Magic Number,The method contains a magic number: 10,2196
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_5,Magic Number,The method contains a magic number: 10,2205
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_7,Magic Number,The method contains a magic number: 10,2214
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_8,Magic Number,The method contains a magic number: 10,2223
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_9,Magic Number,The method contains a magic number: 10,2232
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_10,Magic Number,The method contains a magic number: 10,2241
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_9_11,Magic Number,The method contains a magic number: 10,2250
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_13_1,Magic Number,The method contains a magic number: 10,2259
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test7_13_2,Magic Number,The method contains a magic number: 10,2268
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_1,Magic Number,The method contains a magic number: 10,2277
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_2,Magic Number,The method contains a magic number: 20,2286
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_3,Magic Number,The method contains a magic number: 70,2295
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_4,Magic Number,The method contains a magic number: 375,2304
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_5,Magic Number,The method contains a magic number: 750,2313
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_1_6,Magic Number,The method contains a magic number: 1000,2322
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_1,Magic Number,The method contains a magic number: 10,2331
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_2,Magic Number,The method contains a magic number: 20,2340
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_3,Magic Number,The method contains a magic number: 70,2349
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_4,Magic Number,The method contains a magic number: 250,2358
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_5,Magic Number,The method contains a magic number: 350,2367
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_2_6,Magic Number,The method contains a magic number: 800,2376
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_1,Magic Number,The method contains a magic number: 2000,2385
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_2,Magic Number,The method contains a magic number: 600,2394
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_3,Magic Number,The method contains a magic number: 300,2403
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_4,Magic Number,The method contains a magic number: 250,2412
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_5,Magic Number,The method contains a magic number: 200,2421
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_6,Magic Number,The method contains a magic number: 175,2430
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_7,Magic Number,The method contains a magic number: 175,2439
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_8,Magic Number,The method contains a magic number: 160,2449
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_3_9,Magic Number,The method contains a magic number: 160,2458
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_1,Magic Number,The method contains a magic number: 2300,2467
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_2,Magic Number,The method contains a magic number: 700,2476
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_3,Magic Number,The method contains a magic number: 350,2485
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_4,Magic Number,The method contains a magic number: 175,2494
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_5,Magic Number,The method contains a magic number: 150,2503
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_6,Magic Number,The method contains a magic number: 100,2512
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_7,Magic Number,The method contains a magic number: 125,2521
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_8,Magic Number,The method contains a magic number: 125,2530
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_4_9,Magic Number,The method contains a magic number: 125,2539
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_1,Magic Number,The method contains a magic number: 3200,2548
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_2,Magic Number,The method contains a magic number: 1300,2557
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_3,Magic Number,The method contains a magic number: 700,2566
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_4,Magic Number,The method contains a magic number: 450,2575
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_5,Magic Number,The method contains a magic number: 250,2584
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_5_6,Magic Number,The method contains a magic number: 150,2593
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_1,Magic Number,The method contains a magic number: 3000,2602
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_2,Magic Number,The method contains a magic number: 1500,2611
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_3,Magic Number,The method contains a magic number: 750,2620
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_4,Magic Number,The method contains a magic number: 450,2629
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_5,Magic Number,The method contains a magic number: 250,2638
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_6_6,Magic Number,The method contains a magic number: 200,2647
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_1,Magic Number,The method contains a magic number: 500,2656
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_2,Magic Number,The method contains a magic number: 400,2665
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_3,Magic Number,The method contains a magic number: 400,2674
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_4,Magic Number,The method contains a magic number: 400,2683
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_5,Magic Number,The method contains a magic number: 550,2692
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_7_6,Magic Number,The method contains a magic number: 850,2701
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_1,Magic Number,The method contains a magic number: 300,2710
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_2,Magic Number,The method contains a magic number: 320,2719
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_3,Magic Number,The method contains a magic number: 400,2728
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_4,Magic Number,The method contains a magic number: 400,2737
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_5,Magic Number,The method contains a magic number: 470,2746
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test9_8_6,Magic Number,The method contains a magic number: 770,2755
+.,org.java_websocket.autobahn,AutobahnServerResultsTest,test10_1_1,Magic Number,The method contains a magic number: 10,2764
+.,org.java_websocket.example,AutobahnClientTest,main,Complex Method,Cyclomatic complexity of the method is 12,44
+.,org.java_websocket.example,AutobahnClientTest,main,Long Method,The method has 106 lines of code.,44
+.,org.java_websocket.example,AutobahnClientTest,main,Magic Number,The method contains a magic number: 9003,44
+.,org.java_websocket.example,AutobahnClientTest,main,Magic Number,The method contains a magic number: 3,44
+.,org.java_websocket.example,AutobahnClientTest,main,Magic Number,The method contains a magic number: 2,44
+.,org.java_websocket.example,AutobahnClientTest,main,Magic Number,The method contains a magic number: 3,44
+.,org.java_websocket.example,AutobahnServerTest,main,Magic Number,The method contains a magic number: 9003,90
+.,org.java_websocket.example,AutobahnSSLServerTest,main,Magic Number,The method contains a magic number: 9003,90
+.,org.java_websocket.issues,Issue1142Test,testWithoutSSLSession,Empty catch clause,The method has an empty catch block.,32
+.,org.java_websocket.issues,Issue1142Test,testWithoutSSLSession,Magic Number,The method contains a magic number: 4000,32
+.,org.java_websocket.issues,Issue1142Test,testWithSSLSession,Magic Number,The method contains a magic number: 4000,69
+.,org.java_websocket.issues,Issue1160Test,nonFatalErrorShallBeHandledByServer,Magic Number,The method contains a magic number: 5000,48
+.,org.java_websocket.issues,Issue1160Test,nonFatalErrorShallBeHandledByServer,Magic Number,The method contains a magic number: 10,48
+.,org.java_websocket.issues,Issue1160Test,nonFatalErrorShallBeHandledByServer,Magic Number,The method contains a magic number: 3,48
+.,org.java_websocket.issues,Issue1160Test,nonFatalErrorShallBeHandledByServer,Magic Number,The method contains a magic number: 10,48
+.,org.java_websocket.issues,Issue1160Test,nonFatalErrorShallBeHandledByServer,Magic Number,The method contains a magic number: 100,48
+.,org.java_websocket.issues,Issue1160Test,fatalErrorShallNotBeHandledByServer,Magic Number,The method contains a magic number: 5000,107
+.,org.java_websocket.issues,Issue1160Test,fatalErrorShallNotBeHandledByServer,Magic Number,The method contains a magic number: 10,107
+.,org.java_websocket.issues,Issue1160Test,fatalErrorShallNotBeHandledByServer,Magic Number,The method contains a magic number: 10,107
+.,org.java_websocket.issues,Issue1160Test,fatalErrorShallNotBeHandledByServer,Magic Number,The method contains a magic number: 100,107
+.,org.java_websocket.issues,Issue1203Test,testIssue,Magic Number,The method contains a magic number: 50000,25
+.,org.java_websocket.issues,Issue1203Test,testIssue,Magic Number,The method contains a magic number: 10,25
+.,org.java_websocket.issues,Issue1203Test,testIssue,Magic Number,The method contains a magic number: 10,25
+.,org.java_websocket.issues,Issue1203Test,testIssue,Magic Number,The method contains a magic number: 15000,25
+.,org.java_websocket.issues,Issue1203Test,testIssue,Magic Number,The method contains a magic number: 30000,25
+.,org.java_websocket.issues,Issue256Test,startServer,Magic Number,The method contains a magic number: 16,66
+.,org.java_websocket.issues,Issue256Test,runTestScenarioReconnect,Magic Number,The method contains a magic number: 2,103
+.,org.java_websocket.issues,Issue256Test,runReconnectSocketClose,Magic Number,The method contains a magic number: 5000,154
+.,org.java_websocket.issues,Issue256Test,runReconnectCloseBlocking,Magic Number,The method contains a magic number: 5000,159
+.,org.java_websocket.issues,Issue580Test,runTestScenario,Magic Number,The method contains a magic number: 100,58
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Complex Method,Cyclomatic complexity of the method is 30,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Long Method,The method has 112 lines of code.,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 3,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 10,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 4,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 5,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 6,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 7,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 9,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 4,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 10,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 10,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 4,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 6,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 6,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 5,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 10,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 2,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 9,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 5,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 3,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 7,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 10,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 9,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 3,55
+.,org.java_websocket.issues,Issue598Test,runTestScenario,Magic Number,The method contains a magic number: 7,55
+.,org.java_websocket.issues,Issue598Test,runBelowLimitBytebuffer,Magic Number,The method contains a magic number: 2000,192
+.,org.java_websocket.issues,Issue598Test,runBelowSplitLimitBytebuffer,Magic Number,The method contains a magic number: 2000,197
+.,org.java_websocket.issues,Issue598Test,runBelowLimitString,Magic Number,The method contains a magic number: 2000,202
+.,org.java_websocket.issues,Issue598Test,runBelowLimitString,Magic Number,The method contains a magic number: 2,202
+.,org.java_websocket.issues,Issue598Test,runBelowSplitLimitString,Magic Number,The method contains a magic number: 2000,207
+.,org.java_websocket.issues,Issue598Test,runBelowSplitLimitString,Magic Number,The method contains a magic number: 3,207
+.,org.java_websocket.issues,Issue598Test,runAboveLimitBytebuffer,Magic Number,The method contains a magic number: 4,212
+.,org.java_websocket.issues,Issue598Test,runAboveSplitLimitBytebuffer,Magic Number,The method contains a magic number: 2000,218
+.,org.java_websocket.issues,Issue598Test,runAboveSplitLimitBytebuffer,Magic Number,The method contains a magic number: 5,218
+.,org.java_websocket.issues,Issue598Test,runAboveLimitString,Magic Number,The method contains a magic number: 2000,223
+.,org.java_websocket.issues,Issue598Test,runAboveLimitString,Magic Number,The method contains a magic number: 6,223
+.,org.java_websocket.issues,Issue598Test,runAboveSplitLimitString,Magic Number,The method contains a magic number: 2000,228
+.,org.java_websocket.issues,Issue598Test,runAboveSplitLimitString,Magic Number,The method contains a magic number: 7,228
+.,org.java_websocket.issues,Issue661Test,testIssue,Empty catch clause,The method has an empty catch block.,53
+.,org.java_websocket.issues,Issue661Test,testIssue,Magic Number,The method contains a magic number: 2000,53
+.,org.java_websocket.issues,Issue661Test,testIssue,Magic Number,The method contains a magic number: 1000,53
+.,org.java_websocket.issues,Issue661Test,testIssue,Magic Number,The method contains a magic number: 100,53
+.,org.java_websocket.issues,Issue666Test,testServer,Complex Conditional,The conditional expression !name.startsWith("WebSocketSelector-") && !name.startsWith("WebSocketWorker-") && !name.startsWith("connectionLostChecker-") is complex.,46
+.,org.java_websocket.issues,Issue666Test,testServer,Long Statement,The length of the statement "if (!name.startsWith("WebSocketSelector-") && !name.startsWith("WebSocketWorker-") && !name.startsWith("connectionLostChecker-")) {" is 131.,46
+.,org.java_websocket.issues,Issue666Test,testClient,Complex Conditional,The conditional expression !name.startsWith("connectionLostChecker-") && !name.startsWith("WebSocketWriteThread-") && !name.startsWith("WebSocketConnectReadThread-") is complex.,91
+.,org.java_websocket.issues,Issue666Test,testClient,Long Statement,The length of the statement "if (!name.startsWith("connectionLostChecker-") && !name.startsWith("WebSocketWriteThread-") && !name.startsWith("WebSocketConnectReadThread-")) {" is 145.,91
+.,org.java_websocket.issues,Issue713Test,testIllegalArgument,Empty catch clause,The method has an empty catch block.,51
+.,org.java_websocket.issues,Issue713Test,testIllegalArgument,Empty catch clause,The method has an empty catch block.,51
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 2000,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 10,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 10,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 5,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 8,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 6,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 4,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 2,94
+.,org.java_websocket.issues,Issue713Test,testIssue,Magic Number,The method contains a magic number: 5,94
+.,org.java_websocket.issues,Issue713Test,onStart,Magic Number,The method contains a magic number: 10,116
+.,org.java_websocket.issues,Issue732Test,testIssue,Empty catch clause,The method has an empty catch block.,51
+.,org.java_websocket.issues,Issue732Test,testIssue,Empty catch clause,The method has an empty catch block.,51
+.,org.java_websocket.issues,Issue732Test,testIssue,Empty catch clause,The method has an empty catch block.,51
+.,org.java_websocket.issues,Issue732Test,testIssue,Magic Number,The method contains a magic number: 2000,51
+.,org.java_websocket.issues,Issue732Test,onOpen,Empty catch clause,The method has an empty catch block.,55
+.,org.java_websocket.issues,Issue732Test,onClose,Empty catch clause,The method has an empty catch block.,75
+.,org.java_websocket.issues,Issue732Test,onError,Empty catch clause,The method has an empty catch block.,85
+.,org.java_websocket.issues,Issue764Test,testIssue,Magic Number,The method contains a magic number: 2000,55
+.,org.java_websocket.issues,Issue811Test,testSetConnectionLostTimeout,Magic Number,The method contains a magic number: 2000,42
+.,org.java_websocket.issues,Issue811Test,testSetConnectionLostTimeout,Magic Number,The method contains a magic number: 60,42
+.,org.java_websocket.issues,Issue811Test,testSetConnectionLostTimeout,Magic Number,The method contains a magic number: 1000,42
+.,org.java_websocket.issues,Issue811Test,testSetConnectionLostTimeout,Magic Number,The method contains a magic number: 20,42
+.,org.java_websocket.issues,Issue811Test,run,Magic Number,The method contains a magic number: 60,48
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 15000,53
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 3,53
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 3,53
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 10,53
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 10000,53
+.,org.java_websocket.issues,Issue825Test,testIssue,Magic Number,The method contains a magic number: 100,53
+.,org.java_websocket.issues,Issue834Test,testNoNewThreads,Magic Number,The method contains a magic number: 1000,15
+.,org.java_websocket.issues,Issue847Test,data,Magic Number,The method contains a magic number: 2,66
+.,org.java_websocket.issues,Issue847Test,startServer,Empty catch clause,The method has an empty catch block.,75
+.,org.java_websocket.issues,Issue847Test,startServer,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes("HTTP/1.1 101 Websocket Connection Upgrade\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n" + KeyUtils.getSecKey(seckey) + "\r\n"));" is 170.,75
+.,org.java_websocket.issues,Issue847Test,startServer,Magic Number,The method contains a magic number: 10,75
+.,org.java_websocket.issues,Issue847Test,startServer,Magic Number,The method contains a magic number: 2,75
+.,org.java_websocket.issues,Issue847Test,startServer,Magic Number,The method contains a magic number: 5,75
+.,org.java_websocket.issues,Issue847Test,startServer,Magic Number,The method contains a magic number: 2,75
+.,org.java_websocket.issues,Issue847Test,run,Empty catch clause,The method has an empty catch block.,80
+.,org.java_websocket.issues,Issue847Test,run,Long Statement,The length of the statement "os.write(Charsetfunctions.asciiBytes("HTTP/1.1 101 Websocket Connection Upgrade\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n" + KeyUtils.getSecKey(seckey) + "\r\n"));" is 170.,80
+.,org.java_websocket.issues,Issue847Test,run,Magic Number,The method contains a magic number: 10,80
+.,org.java_websocket.issues,Issue847Test,run,Magic Number,The method contains a magic number: 2,80
+.,org.java_websocket.issues,Issue847Test,run,Magic Number,The method contains a magic number: 5,80
+.,org.java_websocket.issues,Issue847Test,run,Magic Number,The method contains a magic number: 2,80
+.,org.java_websocket.issues,Issue847Test,testIncrementalFrameUnmasked,Magic Number,The method contains a magic number: 5000,147
+.,org.java_websocket.issues,Issue847Test,testIncrementalFrameMsked,Magic Number,The method contains a magic number: 5000,152
+.,org.java_websocket.issues,Issue855Test,testIssue,Magic Number,The method contains a magic number: 2000,45
+.,org.java_websocket.issues,Issue879Test,QuickStopTest,Magic Number,The method contains a magic number: 10000,61
+.,org.java_websocket.issues,Issue879Test,QuickStopTest,Magic Number,The method contains a magic number: 100,61
+.,org.java_websocket.issues,Issue879Test,data,Magic Number,The method contains a magic number: 25,129
+.,org.java_websocket.issues,Issue879Test,data,Magic Number,The method contains a magic number: 25,129
+.,org.java_websocket.issues,Issue890Test,testWithSSLSession,Magic Number,The method contains a magic number: 4000,59
+.,org.java_websocket.issues,Issue890Test,testWithOutSSLSession,Magic Number,The method contains a magic number: 4000,95
+.,org.java_websocket.issues,Issue900Test,testIssue,Magic Number,The method contains a magic number: 2000,50
+.,org.java_websocket.issues,Issue962Test,testIssue,Magic Number,The method contains a magic number: 2000,89
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckActive,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("127.0.0.1"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`"HTTPS");" is 184.,59
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckActive,Magic Number,The method contains a magic number: 2000,59
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckInactive,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("127.0.0.1"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`"");" is 179.,69
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckInactive,Magic Number,The method contains a magic number: 2000,69
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckDefault,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("127.0.0.1"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`null);" is 181.,78
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_Client127_CheckDefault,Magic Number,The method contains a magic number: 2000,78
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckActive,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("localhost"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`"HTTPS");" is 184.,87
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckActive,Magic Number,The method contains a magic number: 2000,87
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckInactive,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("localhost"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`"");" is 179.,97
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckInactive,Magic Number,The method contains a magic number: 2000,97
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckDefault,Long Statement,The length of the statement "SSLWebSocketClient client=testIssueWithLocalServer("localhost"`SocketUtil.getAvailablePort()`SSLContextUtil.getLocalhostOnlyContext()`SSLContextUtil.getLocalhostOnlyContext()`null);" is 181.,106
+.,org.java_websocket.issues,Issue997Test,test_localServer_ServerLocalhost_ClientLocalhost_CheckDefault,Magic Number,The method contains a magic number: 2000,106
+.,org.java_websocket.issues,Issue997Test,testIssueWithLocalServer,Long Identifier,The length of the parameter endpointIdentificationAlgorithm is 31.,116
+.,org.java_websocket.issues,Issue997Test,testIssueWithLocalServer,Long Identifier,The length of the field endpointIdentificationAlgorithm is 31.,116
+.,org.java_websocket.issues,Issue997Test,testIssueWithLocalServer,Long Parameter List,The method has 5 parameters. ,116
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,startServer,Complex Method,Cyclomatic complexity of the method is 14,56
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,startServer,Empty catch clause,The method has an empty catch block.,56
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,run,Complex Method,Cyclomatic complexity of the method is 14,61
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,run,Empty catch clause,The method has an empty catch block.,61
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase0,Magic Number,The method contains a magic number: 5000,154
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase1,Magic Number,The method contains a magic number: 5000,159
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase2,Magic Number,The method contains a magic number: 5000,164
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase2,Magic Number,The method contains a magic number: 2,164
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase3,Magic Number,The method contains a magic number: 5000,169
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase3,Magic Number,The method contains a magic number: 3,169
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase4,Magic Number,The method contains a magic number: 5000,174
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase4,Magic Number,The method contains a magic number: 4,174
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase5,Magic Number,The method contains a magic number: 5000,179
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase5,Magic Number,The method contains a magic number: 5,179
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase6,Magic Number,The method contains a magic number: 5000,184
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase6,Magic Number,The method contains a magic number: 6,184
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase7,Magic Number,The method contains a magic number: 5000,189
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase7,Magic Number,The method contains a magic number: 7,189
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase8,Magic Number,The method contains a magic number: 5000,194
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase8,Magic Number,The method contains a magic number: 8,194
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase9,Magic Number,The method contains a magic number: 5000,199
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase9,Magic Number,The method contains a magic number: 9,199
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase10,Magic Number,The method contains a magic number: 5000,204
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase10,Magic Number,The method contains a magic number: 10,204
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase11,Magic Number,The method contains a magic number: 5000,209
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejectionTestCase11,Magic Number,The method contains a magic number: 11,209
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejection,Complex Method,Cyclomatic complexity of the method is 8,214
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejection,Magic Number,The method contains a magic number: 10,214
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,testHandshakeRejection,Magic Number,The method contains a magic number: 11,214
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 10,229
+.,org.java_websocket.misc,OpeningHandshakeRejectionTest,onClose,Magic Number,The method contains a magic number: 11,229

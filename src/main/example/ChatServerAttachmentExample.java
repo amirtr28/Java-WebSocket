@@ -51,14 +51,24 @@ public class ChatServerAttachmentExample extends WebSocketServer {
     super(address);
   }
 
-  @Override
+  @Override 
   public void onOpen(WebSocket conn, ClientHandshake handshake) {
-    conn.setAttachment(index); //Set the attachment to the current index
+
+    conn.setAttachment(index); 
     index++;
-    // Get the attachment of this connection as Integer
-    System.out.println(
-        conn.getRemoteSocketAddress().getAddress().getHostAddress() + " entered the room! ID: "
-            + conn.<Integer>getAttachment());
+
+    // Extract the connection info into a variable
+    String connectionInfo = getConnectionInfo(conn);
+    
+    // Use the variable in the print statement
+    System.out.println(connectionInfo + " entered the room!");
+
+  }
+
+  // Extract method for connection info 
+  private String getConnectionInfo(WebSocket conn) {
+    return conn.getRemoteSocketAddress().getAddress().getHostAddress() + 
+          " ID: " + conn.<Integer>getAttachment();
   }
 
   @Override

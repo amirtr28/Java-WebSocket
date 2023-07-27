@@ -1,0 +1,14 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+.,org.java_websocket,WebSocketImpl,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: DEFAULT_PORT; DEFAULT_WSS_PORT; RCVBUF
+.,org.java_websocket,WebSocketImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 17
+.,org.java_websocket.client,WebSocketClient,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+.,org.java_websocket.drafts,Draft,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 13
+.,org.java_websocket.drafts,Draft_6455,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 21
+.,org.java_websocket.drafts,Draft_6455Test,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+.,org.java_websocket.extensions,ExtensionRequestData,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: EMPTY_VALUE
+.,org.java_websocket.framing,CloseFrame,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: NORMAL; GOING_AWAY; PROTOCOL_ERROR; REFUSE; NOCODE; ABNORMAL_CLOSE; NO_UTF8; POLICY_VALIDATION; TOOBIG; EXTENSION; UNEXPECTED_CONDITION; SERVICE_RESTART; TRY_AGAIN_LATER; BAD_GATEWAY; TLS_ERROR; NEVER_CONNECTED; BUGGYCLOSE; FLASHPOLICY
+.,org.java_websocket.server,WebSocketServer,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+.,org.java_websocket.util,Base64,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: NO_OPTIONS; ENCODE; GZIP; DO_BREAK_LINES; URL_SAFE; ORDERED
+.,org.java_websocket.util,Base64.OutputStream,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+.,org.java_websocket.issues,Issue598Test,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+.,org.java_websocket.issues,Issue941Test,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
